@@ -1,0 +1,66 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.video {
+  transition: height 0.5s, width 0.5s, visibility 0s, opacity 0.5s linear;
+}
+
+.video-show {
+  opacity: 1;
+  visibility: visible;
+  width: auto;
+  height: auto;
+}
+
+.video-hide {
+  visibility: hidden;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}      
+
+.title, #loading {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: lime;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  width: 80%;
+}
+
+.filter-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  outline: 1px solid white;
+  margin: 0.5em;
+  font-size: 1rem;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

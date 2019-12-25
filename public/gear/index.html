@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Coding Garden Gear</title>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="../og-styles.min.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2vw;
+    }
+
+    .info {
+      width: 90%;
+    }
+
+    table {
+      width: 95%;
+    }
+
+    thead {
+      text-align: center;
+    }
+
+    tr {
+      outline: 1px solid white;
+    }
+
+    .gear-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background: #333;
+    }
+
+    .link {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="info">This is a list of the gear I use to stream. You can support me by clicking the affiliate links on the right. The product links on the left are direct links to amazon and do not include affiliate info.</p>
+  <table>
+    <thead>
+      <tr width="100%">
+        <td>Product Link</td>
+        <td width="20%">Image</td>
+        <td width="30%">Title</td>
+        <td width="30%">Description</td>
+        <td>Affiliate Link</td>
+      </tr>
+    </thead>
+    <tbody id="gear">
+
+    </tbody>
+  </table>
+  <script src="/gear/gear.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Coding Garden Donate</title>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="../og-styles.min.css">
+</head>
+
+<body>
+  <h2 class="name">Loading stickers...</h2>
+  <p class="tagline">You will be redirected in <span id="time">3</span>.</p>
+  <script>
+    const time = document.querySelector('#time');
+    let count = 3;
+    function countdown() {
+      time.textContent = count;
+      count--;
+      if (count === 0) {
+ window.location = 'https://www.redbubble.com/people/w3cj/collections/907384-coding-garden-with-cj';
+      }
+      setTimeout(countdown, 1000);
+    }
+    countdown();
+  </script>
+</body>
+</html>
