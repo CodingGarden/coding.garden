@@ -13,7 +13,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   height: 98vh;
   overflow: auto;
   font-family: 'Share Tech Mono', monospace;
@@ -41,6 +41,12 @@
 a,
 a:visited {
   color: #56BC58;
+}
+
+.tagline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 #codes div {
@@ -74,6 +80,12 @@ a:visited {
   cursor: pointer;
   border: 1px solid white;
 }
+
+.privacy-policy {
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-style: italic;
+}
 </style>
 
 <main class="main">
@@ -103,13 +115,21 @@ a:visited {
         <a href="https://twitter.com/coding_garden">on Twitter</a> for the latest updates.
       </p>
       <p class="tagline">
-        Search / filter my videos <a href="/videos">here</a>.
+        Ask questions for CJ to answer LIVE on stream <a href="https://qna.coding.garden">here</a>.
+        <br />
+        You can login with Google, Patreon or Discord to display your member / patron status next to your question.
       </p>
       <p class="tagline">
-        <a href="/support">Support Coding Garden</a> with donations, patreon and stickers
+        Search for videos <a href="/videos">here</a>.
       </p>
       <p class="tagline">
-        <a href="/gear">View the gear I use to stream here</a>
+        Support Coding Garden with donations, patreon and stickers <a href="/support">here</a>
+      </p>
+      <p class="tagline">
+        View the gear used to stream <a href="/gear">here</a>
+      </p>
+      <p class="tagline privacy-policy">
+        View the Coding Garden Privacy Policy <a href="/privacy-policy">here</a>
       </p>
     </div>
   </div>
