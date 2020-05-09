@@ -1,13 +1,13 @@
 var commands = [
   {
-    "response": "Frontend Framework Showdown 2020 - Build the same Image Search App with Vanilla JS, React.js, Vue.js, Svelte and more! View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020",
+    "response": "View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020 Type !team team-name in the chat to add a team badge to your chat messages! (vanilla, angular, vue, react and svelte are all valid team names)",
     "aliases": [
       "!project",
       "!workingon"
     ]
   },
   {
-    "response": "View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020",
+    "response": "View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020 Type !team team-name in the chat to add a team badge to your chat messages! (vanilla, angular, vue, react and svelte are all valid team names)",
     "aliases": [
       "!showdown"
     ],
