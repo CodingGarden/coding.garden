@@ -1,5 +1,18 @@
 var commands = [
   {
+    "response": "Frontend Framework Showdown 2020 - Build the same Image Search App with Vanilla JS, React.js, Vue.js, Svelte and more! View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020",
+    "aliases": [
+      "!project",
+      "!workingon"
+    ]
+  },
+  {
+    "response": "View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020",
+    "aliases": [
+      "!showdown"
+    ],
+  },
+  {
     "response": "https://coding.garden/discord",
     "aliases": [
       "!discord"
@@ -134,13 +147,6 @@ var commands = [
     ]
   },
   {
-    "response": "Solving Code Wars Code Katas (Code Challenges) and Talking Through My Process - JavaScript 101 - Beginner Friendly! - Most questions about the code will be answered - Sign up here: https://www.codewars.com",
-    "aliases": [
-      "!project",
-      "!workingon"
-    ]
-  },
-  {
     "response": "https://vscodethemes.com/e/nur.just-black",
     "aliases": [
       "!theme"
@@ -174,7 +180,7 @@ var commands = [
     ]
   },
   {
-    "response": "Buy the CODE shirt here: https://teespring.com/en/just-code-it",
+    "response": "Buy the CODE shirt here: https://teespring.com/en/just-code-it and here: https://teespring.com/code-tank-top",
     "aliases": [
       "!code",
       "!tshirt",
