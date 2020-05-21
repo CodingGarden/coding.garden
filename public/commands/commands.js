@@ -1,6 +1,6 @@
 var commands = [
   {
-    "response": "View the details / rules / code here: https://github.com/CodingGarden/frontend-framework-showdown-2020 Type !team team-name in the chat to add a team badge to your chat messages! (vanilla, angular, vue, react and svelte are all valid team names)",
+    "response": "Ask me anything: https://vox.coding.garden/",
     "aliases": [
       "!project",
       "!workingon"
