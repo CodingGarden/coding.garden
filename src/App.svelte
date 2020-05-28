@@ -109,6 +109,9 @@ a:visited {
       <h1>CODING GARDEN</h1>
       <p class="tagline">Grow your coding skills one day at a time.</p>
       <p class="tagline">
+        <a href="https://twitch.tv/codinggarden">Visit Coding Garden on Twitch</a>
+      </p>
+      <p class="tagline">
         <a href="https://www.youtube.com/c/CodingGardenWithCJ">Visit Coding Garden on YouTube</a>
       </p>
       <p class="tagline">Follow @Coding_Garden
