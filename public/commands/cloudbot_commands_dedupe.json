@@ -1,16 +1,8 @@
-var commands = [
+[
   {
-    "response": "https://vscodethemes.com/e/nur.just-black",
+    "response": "<img src=\"https://i.imgur.com/tcLl4Dz.png\" />",
     "aliases": [
-      "!theme"
-    ]
-  },
-  {
-    "response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https://tiny.cc/sql-db-model View the code here: https://git.io/home-inventory-app View the past episodes here: https://tiny.cc/home-inventory-app",
-    "aliases": [
-      "!inventory",
-      "!project",
-      "!workingon"
+      "!alca"
     ]
   },
   {
@@ -20,53 +12,11 @@ var commands = [
     ]
   },
   {
-    "response": "The drop game is a game based on random chance in which your avatar or an emoji is flying across the screen until it's at the bottom of the screen. If you land on the grass in the middle, your name will be displayed on the screen. The closer you are to the perfect middle, the bigger is your name displayed.",
-    "aliases": [
-      "!definedrop"
-    ]
-  },
-  {
-    "response": "https://coding.garden/videos",
-    "aliases": [
-      "!videos"
-    ]
-  },
-  {
-    "response": "https://youtube.com/codinggardenwithcj",
-    "aliases": [
-      "!youtube"
-    ]
-  },
-  {
     "response": "https://www.dejal.com/timeout/",
     "aliases": [
       "!break",
       "!break-timer",
       "!breaktimer"
-    ]
-  },
-  {
-    "response": "https://hovancik.net/stretchly/",
-    "aliases": [
-      "!crossplatformbreak"
-    ]
-  },
-  {
-    "response": "https://patreon.com/CodingGardenWithCJ",
-    "aliases": [
-      "!patreon"
-    ]
-  },
-  {
-    "response": "This is the keyboard I use: Affiliate link (support me) - https://amzn.to/2nFa2wo Direct link (protect your privacy) - https://www.amazon.com/gp/product/B01M3UQX1Y/ Also checkout https://coding.garden/gear for more info on my setup.",
-    "aliases": [
-      "!keyboard"
-    ]
-  },
-  {
-    "response": "<img src=\"https://i.imgur.com/tcLl4Dz.png\" />",
-    "aliases": [
-      "!alca"
     ]
   },
   {
@@ -132,6 +82,18 @@ var commands = [
     "response": "{2:end} @{touser.name} Be mindful of what you say. Keep the Coding Garden a respectful, considerate and inclusive community cdg.sh/code-of-conduct",
     "aliases": [
       "!conduct"
+    ]
+  },
+  {
+    "response": "https://hovancik.net/stretchly/",
+    "aliases": [
+      "!crossplatformbreak"
+    ]
+  },
+  {
+    "response": "The drop game is a game based on random chance in which your avatar or an emoji is flying across the screen until it's at the bottom of the screen. If you land on the grass in the middle, your name will be displayed on the screen. The closer you are to the perfect middle, the bigger is your name displayed.",
+    "aliases": [
+      "!definedrop"
     ]
   },
   {
@@ -230,6 +192,20 @@ var commands = [
     ]
   },
   {
+    "response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https://tiny.cc/sql-db-model View the code here: https://git.io/home-inventory-app View the past episodes here: https://tiny.cc/home-inventory-app",
+    "aliases": [
+      "!inventory",
+      "!project",
+      "!workingon"
+    ]
+  },
+  {
+    "response": "This is the keyboard I use: Affiliate link (support me) - https://amzn.to/2nFa2wo Direct link (protect your privacy) - https://www.amazon.com/gp/product/B01M3UQX1Y/ Also checkout https://coding.garden/gear for more info on my setup.",
+    "aliases": [
+      "!keyboard"
+    ]
+  },
+  {
     "response": "Onitama is like a mini version of chess with valid moves rotating between players. Buy Onitama on Amazon: https://amzn.to/2V2X0a0 Onitama on BoardGameGeek: https://boardgamegeek.com/boardgame/160477/onitama Publishers website: https://www.arcanewonders.com/game/onitama/",
     "aliases": [
       "!onitama"
@@ -245,6 +221,12 @@ var commands = [
     "response": "Waiting for a response from twitch!",
     "aliases": [
       "!partner"
+    ]
+  },
+  {
+    "response": "https://patreon.com/CodingGardenWithCJ",
+    "aliases": [
+      "!patreon"
     ]
   },
   {
@@ -280,6 +262,12 @@ var commands = [
     ]
   },
   {
+    "response": "https://vscodethemes.com/e/nur.just-black",
+    "aliases": [
+      "!theme"
+    ]
+  },
+  {
     "response": "<img src=\"https://i.imgur.com/Pyx1Nqx.gif\" />",
     "aliases": [
       "!tony-nose-bleed"
@@ -310,19 +298,21 @@ var commands = [
     ]
   },
   {
+    "response": "https://coding.garden/videos",
+    "aliases": [
+      "!videos"
+    ]
+  },
+  {
     "response": "Ask me anything, suggest an idea, submit something for me to check out: https://vox.coding.garden/  with chat commands: \"!ask your message here\" | \"!idea your message here\" | \"!submit your message here\" | \"!upvote #number\" | \"!comment #number your comment here\"",
     "aliases": [
       "!vox"
     ]
+  },
+  {
+    "response": "https://youtube.com/codinggardenwithcj",
+    "aliases": [
+      "!youtube"
+    ]
   }
-];
-
-var renderer = new marked.Renderer();
-
-renderer.link = function( href, title, text ) {
-  return '<a target="_blank" rel="noopener" href="'+ href +'" title="' + title + '">' + text + '</a>';
-}
-
-document.querySelector('#commands').innerHTML = commands.reduce(function (html, item) {
-  return html + ('<tr><td>' + item.aliases.join('\n') + '</td><td class="response">' + marked(item.response, { renderer:renderer }) + '</td></tr>');
-}, '');
+]
