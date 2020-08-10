@@ -8,55 +8,82 @@
   <link rel="stylesheet" href="../og-styles.min.css">
   <style>
     body {
+      font-size: 2rem;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+    }
+
+    #app {
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: 2vw;
+      justify-content: center;
+      width: 100%;
     }
 
     .info {
-      width: 90%;
-    }
-
-    table {
-      width: 95%;
-    }
-
-    thead {
       text-align: center;
     }
 
-    tr {
+    .commands {
+      width: 90%;
+    }
+
+    .command {
       outline: 1px solid white;
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0;
+    }
+
+    .response {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      word-wrap: break-word;
     }
 
     .title {
       text-align: center;
     }
 
-    tr:nth-child(even) {
+    .command:nth-child(even) {
       background: #333;
     }
 
-    td {
-      padding: 0.5rem;
+    [v-cloak] {
+      display: none;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    input {
+      margin: 0 0 1rem 1rem;
+      font-size: 2rem;
+      width: 50%;
     }
   </style>
 </head>
 
 <body>
   <p class="info">Coding Garden Cloudbot Chat Commands</p>
-  <table>
-    <thead>
-      <tr width="100%">
-        <td width="20%">Aliases</td>
-        <td>Response</td>
-      </tr>
-    </thead>
-    <tbody id="commands">
-
-    </tbody>
-  </table>
+  <div id="app">
+    <form>
+      <label>Filter Commands</label>
+      <input v-model="filter">
+    </form>
+    <div class="commands">
+      <div v-for="command in filteredCommands" class="command">
+        <p class="name">{{command.command}}</p>
+        <p class="response" v-html="command.html"></p>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.0.0/marked.min.js"></script>
   <script src="/commands/commands.js"></script>
 </body>
