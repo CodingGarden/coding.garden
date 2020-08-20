@@ -1,10 +1,10 @@
 @font-face {font-family: "Futura Bold";
-  src: url("fonts/FuturaBold.eot"); /* IE9*/
-  src: url("fonts/FuturaBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("fonts/FuturaBold.woff2") format("woff2"), /* chrome、firefox */
-  url("fonts/FuturaBold.woff") format("woff"), /* chrome、firefox */
-  url("fonts/FuturaBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("fonts/FuturaBold.svg#Futura Bold") format("svg"); /* iOS 4.1- */
+  src: url("/fonts/FuturaBold.eot"); /* IE9*/
+  src: url("/fonts/FuturaBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/fonts/FuturaBold.woff2") format("woff2"), /* chrome、firefox */
+  url("/fonts/FuturaBold.woff") format("woff"), /* chrome、firefox */
+  url("/fonts/FuturaBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/fonts/FuturaBold.svg#Futura Bold") format("svg"); /* iOS 4.1- */
 }
 
 body {
