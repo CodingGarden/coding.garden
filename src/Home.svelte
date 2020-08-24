@@ -16,7 +16,7 @@
   /* justify-content: center; */
   height: 98vh;
   overflow: auto;
-  font-family: 'Futura Bold', sans-serif;
+  font-family: 'GlacialIndifference-Bold', sans-serif;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -26,7 +26,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: 'Futura Bold', sans-serif;
+  font-family: 'GlacialIndifference-Bold', sans-serif;
 }
 
 .logos {
