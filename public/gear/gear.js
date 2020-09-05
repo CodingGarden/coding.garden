@@ -309,6 +309,14 @@ new Vue({
       description: 'This is the gear I used before it was replaced / upgraded to the gear listed above.',
       items: past,
     }]
+  },
+  mounted() {
+    window.onload = function() {
+      if (!window.location.hash.includes('#')) {
+        window.location.hash = '#app'
+      }
+      window.location.hash = window.location.hash;
+    }
   }
 });
 
