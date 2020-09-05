@@ -291,7 +291,7 @@ new Vue({
   data: {
     gear: [{
       title: 'Coding Laptop',
-      description: 'This is the laptop I code on, and all the attached accessories. I do not use an external monitor. If you\'re wondering why I use a macbook, read the <a href="faqs/#user-content-why-do-you-use-a-mac">FAQS here</a>.',
+      description: 'This is the laptop I code on, and all the attached accessories. I do not use an external monitor. If you\'re wondering why I use a macbook, read the <a href="/faqs/#user-content-why-do-you-use-a-mac">FAQS here</a>.',
       items: laptop,
     }, {
       title: 'Streaming Computer',
