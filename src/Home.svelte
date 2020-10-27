@@ -112,7 +112,7 @@ a:visited {
         <a href="https://twitch.tv/codinggarden">Visit Coding Garden on Twitch</a>
       </p>
       <p class="tagline">
-        <a href="https://www.youtube.com/c/CodingGardenWithCJ">Visit Coding Garden on YouTube</a>
+        <a href="https://www.youtube.com/c/CodingGarden">Visit Coding Garden on YouTube</a>
       </p>
       <p class="tagline">Follow @Coding_Garden
         <a href="https://twitter.com/coding_garden">on Twitter</a> for the latest updates.
