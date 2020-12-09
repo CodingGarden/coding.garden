@@ -72,7 +72,7 @@
 <body>
   <p class="info">Coding Garden Cloudbot Chat Commands</p>
   <div id="app">
-    <form>
+    <form @submit.prevent>
       <label>Filter Commands</label>
       <input v-model="filter">
     </form>
