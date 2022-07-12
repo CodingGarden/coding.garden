@@ -1,16 +1,16 @@
 var laptop = [{
   title: '2015 Macbook Pro',
   description: 'This is the last model macbook that has a dedicated HDMI port and full size USB ports. Overall, it is a very reliable laptop, and the second one I have owned. I purchased my current one lightly used on Ebay.',
-  link: 'https://www.amazon.com/Apple-MacBook-Laptop-Retina-Display/dp/B07ZDM3JCV',
-  affiliate_link: 'https://amzn.to/31ZmGri',
+  link: 'https://www.amazon.com/s?k=MJLT2LL%2FA',
+  affiliate_link: 'https://www.amazon.com/s?k=MJLT2LL%2FA&tag=codinggardenw-20',
   image: 'https://images-na.ssl-images-amazon.com/images/I/81uEPNTD1yL._AC_SX679_.jpg',
   info_link: 'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html'
 }, {
-  title: 'E-Element Z88 Mechanical Keyboard',
-  description: 'An inexpensive 60% mechanical keyboard with RGB lights. I use this on stream.',
-  link: 'https://www.amazon.com/gp/product/B01M3UQX1Y/',
-  affiliate_link: 'https://amzn.to/2nFa2wo',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/61DO0nLq5eL._SX679_.jpg'
+  title: 'Redragon K552 Mechanical Keyboard',
+  description: 'An inexpensive mechanical keyboard with RGB lights. I use this on stream.',
+  link: 'https://www.amazon.com/gp/product/B016MAK38U/',
+  affiliate_link: 'https://amzn.to/2paZuFD',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
 }, {
   title: 'Evoluent VM4L VerticalMouse',
   description: 'A left handed vertical mouse. Vertical mice are much better for wrist ergonomics. I am right handed, but using a left handed mouse prevents me from getting wrist pains in my right wrist. I have been using this same mouse for 5+ years. There are cheaper options, but for me, this was worth the investment.',
@@ -32,15 +32,33 @@ var laptop = [{
 }, {
   title: 'Extended Gaming Mouse Pad',
   description: 'XXL mouse pad. My mouse, laptop + stand, keyboard and audio mixer all fit on top of this. Provides a nice work surface.',
-  link: 'https://www.amazon.com/gp/product/B07Q1H9KCP/',
-  affiliate_link: 'https://amzn.to/3h94uA8',
+  link: 'https://www.amazon.com/s?k=XXL+gaming+mouse+pad',
+  affiliate_link: 'https://www.amazon.com/s?k=XXL+gaming+mouse+pad&tag=codinggardenw-20',
   image: 'https://images-na.ssl-images-amazon.com/images/I/716dLaDeo%2BL._AC_SX679_.jpg'
 }, {
-  title: 'Redragon K552 Mechanical Keyboard',
-  description: 'An inexpensive mechanical keyboard with RED lights. I use this in my home office.',
-  link: 'https://www.amazon.com/gp/product/B016MAK38U/',
-  affiliate_link: 'https://amzn.to/2paZuFD',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
+  title: 'E-Element Z88 Mechanical Keyboard',
+  description: 'An inexpensive 60% mechanical keyboard with RGB lights. I use this in my home office.',
+  link: 'https://www.amazon.com/gp/product/B01M3UQX1Y/',
+  affiliate_link: 'https://amzn.to/2nFa2wo',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/61DO0nLq5eL._SX679_.jpg'
+}, {
+  title: 'RK ROYAL KLUDGE RK G68 65% Wireless Mechanical Keyboard, Bluetooth 5.1/2.4G/Wired',
+  description: 'Super portable 65% wireless mechanical keyboard. I bring this with me when I\'m traveling with my laptop.',
+  link: 'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/',
+  affiliate_link: 'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/61Tcjx0rLwL._AC_SY450_.jpg'
+}, {
+  title: 'RK Wireless Keyboard Travel Case',
+  description: 'Listed for the RK61 keyboard, but fits my RK G68 keyboard just fine.',
+  link: 'https://www.amazon.com/gp/product/B08PBDWL5X/',
+  affiliate_link: 'https://www.amazon.com/gp/product/B08PBDWL5X/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/71o89lHw0HS._AC_SY450_.jpg'
+}, {
+  title: '4 port USB 3.0 Hub',
+  description: 'My macbook only has 2 usb ports, so this gives me more!',
+  link: 'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/',
+  affiliate_link: 'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/51MiG9+u4lL._AC_SX425_.jpg'
 }]
 
 var lightingCameras = [{
@@ -52,33 +70,21 @@ var lightingCameras = [{
 }, {
   title: 'Blue Screen Muslin Backdrop',
   description: 'I use a blue screen to remove the background from the camera and overlay the camera image on top of the desktop in OBS.',
-  link: 'https://www.amazon.com/gp/product/B0115HH8C4/',
-  affiliate_link: 'https://amzn.to/2PsvPzy',
+  link: 'https://www.amazon.com/Neewer-Studio-Collapsible-Backdrop-Background/dp/B00UWUTBOY/',
+  affiliate_link: 'https://www.amazon.com/Neewer-Studio-Collapsible-Backdrop-Background/dp/B00UWUTBOY/?tag=codinggardenw-20',
   image: 'https://images-na.ssl-images-amazon.com/images/I/3178Fzq8%2BDL.jpg'
 }, {
   title: 'Softbox Lighting Kit',
   description: 'I have 2 softboxes pointed at the blue screen behind me, and 1 softbox pointed at me. This reduces shadows / artifacts in the chroma key background.',
-  link: 'https://www.amazon.com/gp/product/B07G334LP9/',
-  affiliate_link: 'https://amzn.to/2okP4D0',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/71Xtp8oslOL._SX679_.jpg'
+  link: 'https://www.amazon.com/Photography-Lighting-Continuous-Equipment-Portraits/dp/B07DVLR56C/',
+  affiliate_link: 'https://www.amazon.com/Photography-Lighting-Continuous-Equipment-Portraits/dp/B07DVLR56C/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/61lqfbPDyCL._AC_SX425_.jpg'
 }, {
-  title: 'Logitech HD Pro Webcam C920',
-  description: '1080p USB webcam. I have one of these pointed at the LEDs on my table.',
-  link: 'https://www.amazon.com/gp/product/B006JH8T3S/',
-  affiliate_link: 'https://amzn.to/2Na89CM',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/91mie-GfV-L._SX679_.jpg'
-}, {
-  title: 'Canon VIXIA HF R800 Camcorder',
-  description: 'A lot of people use a DSLR, but this camcorder looks good enough and is half the price of a DSLR. Also, it doesn\'t shut off after 30 minutes like most DSLRs. The main features you need in a camera are: HDMI Out, the ability to turn OFF the on screen info and the ability to stay on while receiving power. This camera has all of these features.',
-  link: 'https://www.amazon.com/gp/product/B01N7OAH3I/',
-  affiliate_link: 'https://amzn.to/2C9DQrC',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/71xAUUvYvCL._SX679_.jpg'
-}, {
-  title: 'El Gato HD 60 S',
-  description: '1080p HDMI Capture card with 60fps. I use 1 of these to capture the HDMI signal of my macbook. Requires USB 3.0. NOTE: These cards ONLY work with OBS directly on Windows. If you are using a Mac to stream, you will have to use the provided el gato software or the el gato OBS + NDI plugin.',
-  link: 'https://www.amazon.com/gp/product/B01DRWCOGA/',
-  affiliate_link: 'https://amzn.to/2MK4Nqr',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/71g9Ws0CE5L._SX679_.jpg'
+  title: 'Mokose 4K USB Camera',
+  description: '4K USB Camera. Great picture quality and no need for an HDMI capture card!',
+  link: 'https://www.amazon.com/MOKOSE-Desktop-Streaming-Calling-Computer/dp/B08FHBRKSK/',
+  affiliate_link: 'https://www.amazon.com/MOKOSE-Desktop-Streaming-Calling-Computer/dp/B08FHBRKSK/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/518bt9rv32L._AC_SX569_.jpg'
 }, {
   title: 'El Gato HD 60 Pro',
   description: '1080p PCIe HDMI Capture card with 60fps. I use 1 of these to capture the HDMI signal of my HD camcorder. This is similar to the USB version, but plugs directly into the PC motherboard.',
@@ -86,26 +92,8 @@ var lightingCameras = [{
   affiliate_link: 'https://amzn.to/2nJ8oKf',
   image: 'https://images-na.ssl-images-amazon.com/images/I/81A0xDEJuXL._SX679_.jpg'
 }, {
-  title: '2 Output HDMI Splitter',
-  description: 'Splits 1 HDMI input to 2 outputs. I plug my laptop into this and plug 1 of the outputs to the El Gato capture card. The other output plugs into an LCD screen for monitoring on the other side of the room.',
-  link: 'https://www.amazon.com/gp/product/B07FYFN7SR/',
-  affiliate_link: 'https://amzn.to/2oAhaak',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/81e0gG3GsFL._SX679_.jpg'
-}, {
-  title: 'HDMI Mini Adapter',
-  description: 'I use this to plug a regular HDMI cable into the HD camcorder.',
-  link: 'https://www.amazon.com/gp/product/B01HQ2H6OW/',
-  affiliate_link: 'https://amzn.to/2Q0xLk7',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/51fY9QhLv0L._SX679_.jpg'
-}, {
-  title: 'Long HDMI Cables',
-  description: 'My coding laptop and HD camcorder are not directly next to my streaming computer, so these 25 ft HDMI cables allow me to set things up comfortably without straining the cables. This pack also includes a 90 degree HDMI adapter.',
-  link: 'https://www.amazon.com/gp/product/B016VFPWWS/',
-  affiliate_link: 'https://amzn.to/2Z7qEfC',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/911KlWAZFNL._AC_SX679_.jpg'
-}, {
   title: 'Camera Tripod',
-  description: 'A very sturdy camera tripod. My camcorder is attached to this.',
+  description: 'A very sturdy camera tripod. My USB camera is attached to this.',
   link: 'https://www.amazon.com/gp/product/B01MZAD5CU/',
   affiliate_link: 'https://amzn.to/323qIzb',
   image: 'https://images-na.ssl-images-amazon.com/images/I/71Je9N33vEL._AC_SX679_.jpg'
@@ -124,14 +112,14 @@ var lightingCameras = [{
 }];
 
 var microphone = [{
-  title: 'Audio-Technica AT2035',
-  description: 'Cardioid Condenser Microphone. Similar to the AT2020, but includes a switchable high pass filter. This microphone has XLR out and will require a USB audio interface to get the sound into your streaming computer.',
-  link: 'https://www.amazon.com/gp/product/B002T45X1G/',
-  affiliate_link: 'https://www.amazon.com/gp/product/B002T45X1G/ref=as_li_ss_tl?ie=UTF8&tag=codinggardenw-20',
-  image: 'https://images-na.ssl-images-amazon.com/images/I/81KlFIgugtL._AC_SX679_.jpg'
+  title: 'Shure MV7',
+  description: 'Less expensive alternative to the industry standard SM7B. This model has a USB audio interface built in, so you won\'t need a separate one. ALSO, this microphone is a dynamic microphone NOT a condenser microphone like all of my past microphones. Dynamic microphones do not require phantom power and pick up less background noise (I no longer use a noise cancelling filter in OBS).',
+  link: 'https://www.amazon.com/Shure-Microphone-Podcasting-Voice-Isolating-Technology/dp/B08G7RG9ML/',
+  affiliate_link: 'https://www.amazon.com/Shure-Microphone-Podcasting-Voice-Isolating-Technology/dp/B08G7RG9ML/?tag=codinggardenw-20',
+  image: 'https://m.media-amazon.com/images/I/81ZHXEuhgIL._AC_SX466_.jpg'
 }, {
   title: 'YAMAHA MG10XU',
-  description: '10-Input Stereo Mixer With Effects. Includes an on board USB audio interface. The AT2035 as well as other audio sources are plugged into this mixer, and the mixer is then plugged into my streaming computer via USB.',
+  description: '10-Input Stereo Mixer With Effects. Includes an on board USB audio interface. The Shure MV7 as well as other audio sources are plugged into this mixer, and the mixer is then plugged into my streaming computer via USB.',
   link: 'https://www.amazon.com/dp/B00IBIVL42/',
   affiliate_link: 'https://amzn.to/31Z2HsY',
   image: 'https://images-na.ssl-images-amazon.com/images/I/81ZdTG3fO9L._AC_SX679_.jpg'
@@ -204,17 +192,17 @@ var streamingComputer = [{
   image: 'https://c1.neweggimages.com/NeweggImage/ProductImage/83-102-538-Z01.jpg',
   info_link: 'https://www.newegg.com/abs-computer-technologies-fort-ala098/p/N82E16883102538R'
 }, {
-  title: 'I suggest this: CLX Set Gaming Desktop',
-  description: 'The ABS pre-built I have is no longer available, but this machine has very similar / slightly better specs with more modern hardware. If you\'re looking to get a pre-built, this is a good place to start.',
+  title: 'I suggest this: Find a decent pre-built gaming PC',
+  description: 'Look for these specs:',
   specs: [
-    'NVIDIA GeForce GTX 1660 6 GB',
-    'AMD Ryzen 5 2600 (3.40 GHz) 6-Core',
-    '16 GB DDR4 2400 MHz',
-    '1 TB HDD',
-    '120 GB SSD'
+    'Modern Graphics card... AMD Ryzen or Nvidia',
+    'At least quad core CPU',
+    'At least 16GB of RAM',
+    'At least 1 TB HD',
+    'At least 120 GB SSD'
   ],
-  link: 'https://www.amazon.com/dp/B07PZ8T26B/',
-  affiliate_link: 'https://amzn.to/3jNUoGq',
+  link: 'https://www.amazon.com/s?k=gaming+desktop+computer',
+  affiliate_link: 'https://www.amazon.com/s?k=gaming+desktop+computer&tag=codinggardenw-20',
   image: 'https://images-na.ssl-images-amazon.com/images/I/71Smd9dqimL._AC_SX679_.jpg'
 }, {
   title: 'Sceptre 27" Curved 75Hz LED Monitor',
@@ -237,6 +225,42 @@ var streamingComputer = [{
 }];
 
 var past = [{
+  title: 'HDMI Mini Adapter',
+  description: 'I use this to plug a regular HDMI cable into the HD camcorder.',
+  link: 'https://www.amazon.com/gp/product/B01HQ2H6OW/',
+  affiliate_link: 'https://amzn.to/2Q0xLk7',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/51fY9QhLv0L._SX679_.jpg'
+}, {
+  title: 'Long HDMI Cables',
+  description: 'My coding laptop and HD camcorder are not directly next to my streaming computer, so these 25 ft HDMI cables allow me to set things up comfortably without straining the cables. This pack also includes a 90 degree HDMI adapter.',
+  link: 'https://www.amazon.com/gp/product/B016VFPWWS/',
+  affiliate_link: 'https://amzn.to/2Z7qEfC',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/911KlWAZFNL._AC_SX679_.jpg'
+}, {
+  title: 'Logitech HD Pro Webcam C920',
+  description: '1080p USB webcam. I had one of these pointed at the LEDs on my table.',
+  link: 'https://www.amazon.com/gp/product/B006JH8T3S/',
+  affiliate_link: 'https://amzn.to/2Na89CM',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/91mie-GfV-L._SX679_.jpg'
+}, {
+  title: 'Canon VIXIA HF R800 Camcorder',
+  description: 'A lot of people use a DSLR, but this camcorder looks good enough and is half the price of a DSLR. Also, it doesn\'t shut off after 30 minutes like most DSLRs. The main features you need in a camera are: HDMI Out, the ability to turn OFF the on screen info and the ability to stay on while receiving power. This camera has all of these features.',
+  link: 'https://www.amazon.com/gp/product/B01N7OAH3I/',
+  affiliate_link: 'https://amzn.to/2C9DQrC',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/71xAUUvYvCL._SX679_.jpg'
+}, {
+  title: 'El Gato HD 60 S',
+  description: '1080p HDMI Capture card with 60fps. I used 1 of these to capture the HDMI signal of my macbook. Requires USB 3.0. NOTE: These cards ONLY work with OBS directly on Windows. If you are using a Mac to stream, you will have to use the provided el gato software or the el gato OBS + NDI plugin.',
+  link: 'https://www.amazon.com/gp/product/B01DRWCOGA/',
+  affiliate_link: 'https://amzn.to/2MK4Nqr',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/71g9Ws0CE5L._SX679_.jpg'
+}, {
+  title: 'Audio-Technica AT2035',
+  description: 'Cardioid Condenser Microphone. Similar to the AT2020, but includes a switchable high pass filter. This microphone has XLR out and will require a USB audio interface to get the sound into your streaming computer.',
+  link: 'https://www.amazon.com/gp/product/B002T45X1G/',
+  affiliate_link: 'https://www.amazon.com/gp/product/B002T45X1G/ref=as_li_ss_tl?ie=UTF8&tag=codinggardenw-20',
+  image: 'https://images-na.ssl-images-amazon.com/images/I/81KlFIgugtL._AC_SX679_.jpg'
+}, {
   title: 'Blue Yeti USB Microphone',
   description: 'USB Condenser microphone. Has many different settings for different types of recordings (podcast/whole room/direct etc.). Includes a headphone jack for direct monitoring of the microphone audio. Only has USB! This plugs directly into the streaming computer, and does not plug into an audio mixer. There is a version that also has XLR out.',
   link: 'https://www.amazon.com/gp/product/B00N1YPXW2/',
