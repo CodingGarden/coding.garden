@@ -13,7 +13,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   height: 98vh;
   overflow: auto;
   font-family: 'GlacialIndifference-Bold', sans-serif;
@@ -21,17 +20,11 @@
   font-size: 1.5rem;
 }
 
-.title {
-  font-size: 22vmin;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-family: 'GlacialIndifference-Bold', sans-serif;
-}
 
 .logos {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .logo {
@@ -43,14 +36,28 @@ a:visited {
   color: #56BC58;
 }
 
-.tagline {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
+h1 {
+  margin: 1rem auto 2rem auto;
 }
 
-#codes div {
-  font-size: 3vw;
+h2 {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.link-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  place-content: center;
+  gap: 4rem;
+  margin: 1rem;
+}
+
+.link-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
@@ -61,30 +68,18 @@ a:visited {
   justify-content: flex-start;
 }
 
-.tiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.tile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.tile:hover {
-  cursor: pointer;
-  border: 1px solid white;
-}
-
 .privacy-policy {
-  margin-top: 3rem;
+  margin: 3rem auto 0 auto;
   font-size: 1rem;
   font-style: italic;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.no-color-link {
+  color: #ffffff;
+  text-decoration: solid 1px underline #ffffff;
+  text-underline-offset: 0.5rem;
 }
 </style>
 
@@ -107,30 +102,18 @@ a:visited {
   <div class="overlay">
     <div class="info">
       <h1>CODING GARDEN</h1>
-      <p class="tagline">Grow your coding skills one day at a time.</p>
-      <p class="tagline">
+      <h2>Grow your coding skills one day at a time.</h2>
+      <div class="link-list">
         <a href="https://twitch.tv/codinggarden">Visit Coding Garden on Twitch</a>
-      </p>
-      <p class="tagline">
         <a href="https://www.youtube.com/c/CodingGarden">Visit Coding Garden on YouTube</a>
-      </p>
-      <p class="tagline">Follow @Coding_Garden
-        <a href="https://twitter.com/coding_garden">on Twitter</a> for the latest updates.
-      </p>
-      <p class="tagline">
-        Ask questions for CJ to answer LIVE on stream <a href="https://vox.coding.garden">here</a>.
-      </p>
-      <p class="tagline">
-        Search for videos <a href="/videos">here</a>.
-      </p>
-      <p class="tagline">
-        Support Coding Garden with donations, patreon and stickers <a href="/support">here</a>.
-      </p>
-      <p class="tagline">
-        View the gear used to stream <a href="/gear">here</a>.
-      </p>
+        <a href="https://twitter.com/coding_garden">Follow @Coding_Garden on Twitter for the latest updates</a>
+        <a href="https://vox.coding.garden"> Ask questions for CJ to answer LIVE on stream</a>
+        <a href="/videos">Search for videos here</a>
+        <a href="/support">Support Coding Garden with donations, patreon and stickers here</a>
+        <a href="/gear">View the gear used to stream here</a>
+      </div>
       <p class="tagline privacy-policy">
-        View the Coding Garden Privacy Policy <a href="/privacy-policy">here</a>.
+        <a class="no-color-link" href="/privacy-policy">View the Coding Garden Privacy Policy here.</a>
       </p>
     </div>
   </div>
