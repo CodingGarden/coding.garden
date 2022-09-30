@@ -125,7 +125,7 @@ function filterList(event) {
     const regExp = new RegExp(filter, 'gi');
     allVideos.forEach(video => {
       if (video.snippet.title.match(regExp)) {
-        videoElementsById[video.id].className = 'video video-show col-xs-1 col-sm-6 col-md-4';
+        videoElementsById[video.id].className = 'video video-show col-12 col-sm-6 col-md-4';
       } else {
         videoElementsById[video.id].className = 'video video-hide';
       }

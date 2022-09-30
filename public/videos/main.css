@@ -71,3 +71,127 @@ a:hover {
   align-items: center;
   text-align: center;
 }
+
+h1.title {
+	margin-top: 1rem;
+	color: #7a8a7d;
+	margin-bottom: 3rem;
+}
+
+div.filter-links {
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-right: 5rem;
+	border-left: 3px solid lime;
+	padding-left: 1rem;
+}
+
+div.filter-links a.link {
+	transition: outline .3s, color .3s;
+	padding: .45rem 1rem;
+}
+
+div.filter-links a.link {
+	border: 1px solid #4a4a4a;
+	outline: none;
+	color: #aeaeae;
+	border-radius: .3rem;
+	transition: border .3s, color .3s;
+}
+
+div.filter-links a.link:hover {
+	text-decoration: none;
+	color: white;
+	border-color: #959595;
+}
+
+div.video.video-show {
+	padding: 1rem;
+	width: min-content;
+}
+
+div.video.video-show a {
+	text-decoration: none;
+	color: white;
+}
+
+div.video.video-show .card {
+	height: auto;
+	border-radius: .5rem;
+	overflow: hidden;
+	border: 1px solid #4a4a4a;
+	background-color: #222;
+	transition: background, border .3s;
+}
+
+div.video.video-show .card:hover {
+	border-color: #959595;
+}
+
+div.video.video-show .card h5 {
+	font-size: 1.3rem;
+}
+
+div.video.video-show .card .card-img-top {
+	opacity: 1;
+	transition: opacity .3s;
+}
+
+div.video.video-show .card:hover .card-img-top {
+	opacity: 0.8;
+}
+
+input#filter {
+	width: calc(100% - 2rem);
+	margin: 1rem 1rem;
+	margin-top: 0;
+	box-sizing: border-box;
+	outline: none;
+	background-color: #222;
+	border: 1px solid #4a4a4a;
+	border-radius: .5rem;
+	transition: border .3s;
+	padding: .2rem .5rem;
+	font-size: 1.2rem;
+	color: white;
+}
+
+input#filter:focus {
+	border-color: #959595;
+}
+
+label[for="filter"] {
+	color: white;
+	margin: 1rem;
+	margin-bottom: 0;
+	margin-top: 3rem;
+	padding-bottom: .2rem;
+	font-size: 1.2rem;
+}
+
+section#videos {
+	margin: 0;
+	
+}
+
+@media (min-width: 1400px) {
+	section#videos {
+		margin: 0 15rem;
+	}
+	
+	label[for="filter"] {
+		margin-left: 16rem;
+		margin-right: 16rem;
+	}
+	
+	input#filter {
+		margin-left: 16rem;
+		margin-right: 16rem;
+		width: calc(100% - 32rem);
+	}
+	
+	div.filter-links {
+		padding-left: 15rem;
+		margin-right: 15rem;
+	}
+}
