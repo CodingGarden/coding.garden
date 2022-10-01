@@ -1,6 +1,6 @@
 # Coding Garden Website
 
-Landing page built with [Svelte](https://svelte.dev/).
+Landing page built with [SvelteKit](https://kit.svelte.dev/).
 
 ## Setup
 
