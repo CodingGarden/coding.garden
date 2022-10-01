@@ -1,5 +1,4 @@
 <script>
-  import { fade } from "svelte/transition";
   import Parens from "$lib/logos/Parens.svelte";
   import Curly from "$lib/logos/Curly.svelte";
   import Square from "$lib/logos/Square.svelte";
@@ -24,7 +23,7 @@
         </div>
       </div>
     {:else}
-    <!-- Workaround to avoid layout shift -->
+      <!-- Workaround to avoid layout shift -->
       <svg
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

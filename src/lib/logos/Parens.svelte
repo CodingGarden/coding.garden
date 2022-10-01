@@ -1,5 +1,5 @@
 <script>
-  import { draw, fade, scale } from "svelte/transition";
+  import { fade, scale } from "svelte/transition";
 </script>
 
 <svg

@@ -50,8 +50,6 @@
             {#if item.specs}
               <ul class="specs">
                 {#each item.specs as spec}
-                  <!-- content here -->
-
                   <li>{spec}</li>
                 {/each}
               </ul>
