@@ -1,1668 +1,1735 @@
 {
-  "cloudbot": {
-    "settings": {
-      "commands": {
-        "add": {
-          "id": "Default-Commands-1",
-          "command": "!addcommand",
-          "description": "Allows a mod to add a command directly from chat.",
-          "success_response": "{user.name} -> Succesfully added {command}.",
-          "failed_response": "{user.name} -> Failed to add {command}.",
-          "response_type": "Chat",
-          "aliases": [],
-          "static_permission": {
-            "level": 32
-          },
-          "enabled": true,
-          "platforms": 7
-        },
-        "edit": {
-          "id": "Default-Commands-2",
-          "command": "!editcommand",
-          "description": "Allows a mod to edit a command directly from chat.",
-          "success_response": "{user.name} -> Successfully edited {command}.",
-          "failed_response": "{user.name} -> Failed to edit {command}.",
-          "response_type": "Chat",
-          "aliases": [],
-          "static_permission": {
-            "level": 32
-          },
-          "enabled": true,
-          "platforms": 7
-        },
-        "remove": {
-          "id": "Default-Commands-3",
-          "command": "!removecommand",
-          "description": "Allows a mod to remove a command directly from chat.",
-          "success_response": "{user.name} -> Successfully removed {command}.",
-          "failed_response": "{user.name} -> Failed to remove {command}",
-          "response_type": "Chat",
-          "aliases": [],
-          "static_permission": {
-            "level": 32
-          },
-          "enabled": true,
-          "platforms": 7
-        },
-        "enable": {
-          "id": "Default-Commands-4",
-          "command": "!enable",
-          "description": "Allows a mod to enable or disable a command.",
-          "enabled_response": "{user.name} -> Successfully enabled {command}.",
-          "disabled_response": "{user.name} -> Successfully disabled {command}.",
-          "response_type": "Chat",
-          "aliases": [],
-          "static_permission": {
-            "level": 32
-          },
-          "enabled": true,
-          "platforms": 7
-        }
-      },
-      "custom": [{
-        "command": "!discord",
-        "response": "https:\/\/coding.garden\/discord",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "503ea270-e948-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!gear",
-        "response": "https:\/\/coding.garden\/gear",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "8a0e7070-e948-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!videos",
-        "response": "https:\/\/coding.garden\/videos",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "92b8ea20-e948-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!keyboard",
-        "response": "This is the keyboard I use: Affiliate link (support me) - https:\/\/amzn.to\/2nFa2wo Direct link (protect your privacy) - https:\/\/www.amazon.com\/gp\/product\/B01M3UQX1Y\/ Also checkout https:\/\/coding.garden\/gear for more info on my setup.",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "1371b580-e952-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!breaktimer",
-        "response": "https:\/\/www.dejal.com\/timeout\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "1c370a30-e952-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!break-timer",
-        "response": "https:\/\/www.dejal.com\/timeout\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "1f760890-e952-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!break",
-        "response": "https:\/\/www.dejal.com\/timeout\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "22c88ef0-e952-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!commands",
-        "response": "View the chat commands here: https:\/\/coding.garden\/commands",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "8af93a10-e952-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!patreon",
-        "response": "https:\/\/patreon.com\/CodingGardenWithCJ",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "97ccc400-e952-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!donate",
-        "response": "https:\/\/streamlabs.com\/codinggardenwithcj\/tip",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "a4ffd310-e952-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!faq",
-        "response": "https:\/\/github.com\/CodingGardenCommunity\/app-wiki\/wiki\/Frequently-Asked-Questions",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "d622b660-e952-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!cj",
-        "response": "<img src=\"https:\/\/i.imgur.com\/TFt8RMh.png\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "04967f40-e953-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!cj-think",
-        "response": "<img src=\"https:\/\/i.imgur.com\/gtkM6u3.png\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "10654360-e953-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!cj-pixel",
-        "response": "<img src=\"https:\/\/i.imgur.com\/Hl734P3.png\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "45898ab0-e953-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!tony-nose-bleed",
-        "response": "<img src=\"https:\/\/i.imgur.com\/Pyx1Nqx.gif\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "dba81060-e954-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!phil",
-        "response": "<img src=\"https:\/\/i.imgur.com\/UC7eiSh.png\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "7bfb6a30-e95f-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!alca",
-        "response": "<img src=\"https:\/\/i.imgur.com\/tcLl4Dz.png\" \/>",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "687e7300-e9e9-11e9-97eb-6bb377252366"
-      }, {
-        "command": "!youtube",
-        "response": "https:\/\/youtube.com\/codinggardenwithcj",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "21817d80-eb56-11e9-93f4-1b63ae48e3fe"
-      }, {
-        "command": "!twitch",
-        "response": "https:\/\/twitch.tv\/codinggarden",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "17370200-fd76-11e9-bbb5-5bb994d6889c"
-      }, {
-        "command": "!github",
-        "response": "https:\/\/github.com\/CodingGarden",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "28ed4f40-fd76-11e9-a1ac-955aa78d58c3"
-      }, {
-        "command": "!dotfiles",
-        "response": "https:\/\/github.com\/w3cj\/dotfiles",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "468e7420-fd76-11e9-bbb5-5bb994d6889c"
-      }, {
-        "command": "!uptime",
-        "response": "The stream has been live for {uptime}.",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 10
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": false,
-        "hidden": false,
-        "id": "5ef99c40-fddc-11e9-b4de-c1a1f2a490f2"
-      }, {
-        "command": "!gif",
-        "response": "ITS PRONOUNCED GIF!!!!",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "5eb6d6d0-fdf0-11e9-b6b5-972256f02468"
-      }, {
-        "command": "!qna",
-        "response": "Ask a question by typing !ask in the chat. You can vote and see other questions here: https:\/\/vox.coding.garden\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": false,
-        "hidden": false,
-        "id": "9b59ef70-07bc-11ea-8bc9-63a3eda97aad"
-      }, {
-        "command": "!project",
-        "response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https:\/\/tiny.cc\/sql-db-model View the code here: https:\/\/git.io\/home-inventory-app View the past episodes here: https:\/\/tiny.cc\/home-inventory-app",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 30
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "189efef0-6e9f-11ea-95a1-219831a9f4fb"
-      }, {
-        "command": "!theme",
-        "response": "https:\/\/vscodethemes.com\/e\/nur.just-black",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "21f940a0-6e9f-11ea-95a1-219831a9f4fb"
-      }, {
-        "command": "!trello",
-        "response": "https:\/\/trello.com\/b\/2muD6KVr\/stream-tasks",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "a456c6a0-7690-11ea-8bad-758bc185760b"
-      }, {
-        "command": "!workingon",
-        "response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https:\/\/tiny.cc\/sql-db-model View the code here: https:\/\/git.io\/home-inventory-app View the past episodes here: https:\/\/tiny.cc\/home-inventory-app",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 30
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "37277040-7a08-11ea-9c26-9fc89b501e31"
-      }, {
-        "command": "!onitama",
-        "response": "Onitama is like a mini version of chess with valid moves rotating between players. Buy Onitama on Amazon: https:\/\/amzn.to\/2V2X0a0 Onitama on BoardGameGeek: https:\/\/boardgamegeek.com\/boardgame\/160477\/onitama Publishers website: https:\/\/www.arcanewonders.com\/game\/onitama\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "cf399e10-7cc6-11ea-81ed-8f97e308a5f5"
-      }, {
-        "command": "!twitchprime",
-        "response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https:\/\/twitch.amazon.com\/tp",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "0517d400-8953-11ea-a775-a7a0ad0c8941"
-      }, {
-        "command": "!prime",
-        "response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https:\/\/twitch.amazon.com\/tp",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "476aa120-8fe3-11ea-9d1c-c5b6e0b97286"
-      }, {
-        "command": "!tp",
-        "response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https:\/\/twitch.amazon.com\/tp",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "4b3f01b0-8fe3-11ea-9abb-31d89a83b971"
-      }, {
-        "command": "!freesub",
-        "response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https:\/\/twitch.amazon.com\/tp",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "52a318b0-8fe3-11ea-9d1c-c5b6e0b97286"
-      }, {
-        "command": "!partner",
-        "response": "Waiting for a response from twitch!",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "172c6690-8fe5-11ea-9d1c-c5b6e0b97286"
-      }, {
-        "command": "!code",
-        "response": "Buy the CODE shirt here: https:\/\/teespring.com\/en\/just-code-it and here: https:\/\/teespring.com\/code-tank-top",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "46dfef80-8ff2-11ea-9abb-31d89a83b971"
-      }, {
-        "command": "!tshirt",
-        "response": "Buy the CODE shirt here: https:\/\/teespring.com\/en\/just-code-it and here: https:\/\/teespring.com\/code-tank-top",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "4e05c500-8ff2-11ea-9d1c-c5b6e0b97286"
-      }, {
-        "command": "!shirt",
-        "response": "Buy the CODE shirt here: https:\/\/teespring.com\/en\/just-code-it and here: https:\/\/teespring.com\/code-tank-top",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "56b85500-8ff2-11ea-9abb-31d89a83b971"
-      }, {
-        "command": "!clash",
-        "response": "We are playing Coding Game Clash of Code! Sign up here: https:\/\/www.codingame.com\/multiplayer\/clashofcode",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "28160e20-938c-11ea-8957-c528aa2fd653"
-      }, {
-        "command": "!improv",
-        "response": "CODING IMPROV. Building an app completely inspired \/ influenced by suggestions. Use your channel points to suggest something that will influence the code I'm writing. Limited to 10 total redemptions per stream. All suggestions are only suggestions and are open to interpretation.",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "bfcdcce0-9a9d-11ea-9c04-4f27e9700d69"
-      }, {
-        "command": "!vox",
-        "response": "Ask me anything, suggest an idea, submit something for me to check out: https:\/\/vox.coding.garden\/  with chat commands: \"!ask your message here\" | \"!idea your message here\" | \"!submit your message here\" | \"!upvote #number\" | \"!comment #number your comment here\"",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "4a6e7e90-9ec6-11ea-9c04-4f27e9700d69"
-      }, {
-        "command": "!idea",
-        "response": "Ask me anything, suggest an idea, submit something for me to check out: https:\/\/vox.coding.garden\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "4dafedf0-9ec6-11ea-978d-45a1f940d8f8"
-      }, {
-        "command": "!badges",
-        "response": "Type !team team-name in the chat to add a team badge to your chat messages! Valid team names are here: https:\/\/fontawesome.com\/cheatsheet\/free\/brands | Type !country country-name or !flag country-code in the chat to add a country flag to your chat messages! Valid country names are here: https:\/\/restcountries.eu\/rest\/v2\/all",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 30
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "af46ec10-9ec8-11ea-978d-45a1f940d8f8"
-      }, {
-        "command": "!codekatas",
-        "response": "Solving Code Wars Code Katas - https:\/\/www.codewars.com\/dashboard | Filter through katas I've solved here: https:\/\/code-katas.now.sh\/ | View past solutions here: https:\/\/github.com\/CodingGarden\/code-katas | View past episodes here: https:\/\/www.youtube.com\/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "0a668e20-a081-11ea-9991-eb2e6e988262"
-      }, {
-        "command": "!codewars",
-        "response": "Solving Code Wars Code Katas - https:\/\/www.codewars.com\/dashboard | Filter through katas I've solved here: https:\/\/code-katas.now.sh\/ | View past solutions here: https:\/\/github.com\/CodingGarden\/code-katas | View past episodes here: https:\/\/www.youtube.com\/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "120479d0-a081-11ea-9991-eb2e6e988262"
-      }, {
-        "command": "!quokka",
-        "response": "https:\/\/quokkajs.com\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "aadff210-a081-11ea-938f-f38313af7c3c"
-      }, {
-        "command": "!whatisthattool",
-        "response": "https:\/\/quokkajs.com\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "af3171e0-a081-11ea-9991-eb2e6e988262"
-      }, {
-        "command": "!sproutkit",
-        "response": "I'm consolidating the 3+ apps I use for stream overlays and to manage chat \/ questions into a single project with shared components \/ dependencies. Tech stack: Vue.js, TypeScript, SCSS | View the code here: https:\/\/github.com\/CodingGarden\/sproutkit | View the component demos here: https:\/\/sproutkit.now.sh\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 5
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "348b6890-a1dc-11ea-938f-f38313af7c3c"
-      }, {
-        "command": "!inventory",
-        "response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https:\/\/tiny.cc\/sql-db-model View the code here: https:\/\/git.io\/home-inventory-app View the past episodes here: https:\/\/tiny.cc\/home-inventory-app",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 30
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "61b68c10-a361-11ea-9eb7-999a255c28a0"
-      }, {
-        "command": "!katas",
-        "response": "Solving Code Wars Code Katas - https:\/\/www.codewars.com\/dashboard | Filter through katas I've solved here: https:\/\/code-katas.now.sh\/ | View past solutions here: https:\/\/github.com\/CodingGarden\/code-katas | View past episodes here: https:\/\/www.youtube.com\/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "6d23c3e0-a601-11ea-afc3-fdf8e79aa4cf"
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!unbun",
-        "response": "https:\/\/clips.twitch.tv\/WiseDeafGerbilCoolStoryBro",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "4c31c940-ab86-11ea-a01c-33618bc9ee4d",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!quack",
-        "response": "https:\/\/quokkajs.com\/",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "591c0f80-ab86-11ea-a01c-33618bc9ee4d",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!whatarekatas",
-        "response": "Code Katas are small (but sometimes complicated) programming tasks ranging from 8kyu (very easy) to 1kyu (very hard), a lot having to do with maths or other sciences in addition to programming. They can be played on CodeWars. See !katas for links.",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "e80301e0-ab86-11ea-a01c-33618bc9ee4d",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!raid",
-        "response": "Raid messages: https:\/\/cdg.sh\/raid",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "3623ea40-ab9d-11ea-a01c-33618bc9ee4d",
-        "hidden": false
-      }, {
-        "command": "!entropy",
-        "response": "Today we are working on adding multiple Servers \/ Channels to Entropy Chat (a discord clone). The app started as an idea in twitch chat and there have been quite a few community contributions since then. The code is here: https:\/\/github.com\/CodingGarden\/entropychat.app The landing page is here: https:\/\/entropychat.app\/",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 0
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "6e7d3650-b31b-11ea-b713-e95ceae40b1d"
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!panzer",
-        "response": "https:\/\/www.twitch.tv\/codinggarden\/clip\/FantasticFreezingCrabBudStar",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "b3685a20-b31f-11ea-a967-a5cb463b92e4",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!definedrop",
-        "response": "The drop game is a game based on random chance in which your avatar or an emoji is flying across the screen until it's at the bottom of the screen. If you land on the grass in the middle, your name will be displayed on the screen. The closer you are to the perfect middle, the bigger is your name displayed.",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "4880bda0-b325-11ea-a967-a5cb463b92e4",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!editor",
-        "response": "CJ's editor of choice is Visual Studio Code by Microsoft, or VS Code for short. It is cross-platform, open-source (Note: Not Microsoft binaries.) and available at https:\/\/code.visualstudio.com\/. See his settings here: https:\/\/github.com\/CodingGarden\/vscode-settings",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "702232c0-b326-11ea-a967-a5cb463b92e4",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!vscode",
-        "response": "CJ's editor of choice is Visual Studio Code by Microsoft, or VS Code for short. It is cross-platform, open-source (Note: Not Microsoft binaries.) and available at https:\/\/code.visualstudio.com\/. See his settings here: https:\/\/github.com\/CodingGarden\/vscode-settings",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "79d39520-b326-11ea-a967-a5cb463b92e4",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!conduct",
-        "response": "{2:end} @{touser.name} Be mindful of what you say. Keep the Coding Garden a respectful, considerate and inclusive community cdg.sh\/code-of-conduct",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "3cd3d260-b372-11ea-a967-a5cb463b92e4",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!defineled",
-        "response": "You can make the LEDs on the screen change state using \"!led (8-digit binary number)\". 1 is on, 0 is off.",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "072b5020-b494-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!english",
-        "response": "To keep the chat easily moderatable, we enforce the English language in chat. There are some exceptions, for example if you have a good context.",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "ad7dbd40-b49f-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!definekatas",
-        "response": "Code Katas are small (but sometimes complicated) programming tasks ranging from 8kyu (very easy) to 1kyu (very hard), a lot having to do with maths or other sciences in addition to programming. They can be played on CodeWars. See !katas for links.",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "d3220540-b681-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }, {
-        "command": "!codereview",
-        "response": "Use your seedlings (channel points) to redeem a Code Review! Limit 4 total redemptions per stream. Choose one thing for me to focus the review on. The code \/ project must be hosted somewhere public. I work with JavaScript \/ Node.js daily, so the best reviews will be for those kinds of projects. I'm open to reviewing other kinds of projects as well.",
-        "permission": {
-          "info": [],
-          "level": 1
-        },
-        "response_type": "Chat",
-        "cooldowns": {
-          "user": 0,
-          "global": 30
-        },
-        "cost": {
-          "base": 0,
-          "sub": 0,
-          "mod": 0,
-          "reg": 0
-        },
-        "aliases": [],
-        "keywords": [],
-        "platforms": 7,
-        "enabled": true,
-        "hidden": false,
-        "id": "0d4abb70-b7b0-11ea-99c8-cf3b04af2272"
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!crossplatformbreak",
-        "response": "https:\/\/hovancik.net\/stretchly\/",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "8796eb00-b7c0-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!shiffman",
-        "response": "Checkout Shiffman's YouTube channel: https:\/\/www.youtube.com\/user\/shiffman and his Programming with p5.js playlist: https:\/\/www.youtube.com\/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "f4074630-b7c1-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }, {
-        "permission": {
-          "level": 1,
-          "info": []
-        },
-        "cooldowns": {
-          "global": 0,
-          "user": 1
-        },
-        "aliases": [],
-        "platforms": 7,
-        "enabled": true,
-        "response_type": "Chat",
-        "command": "!codingtrain",
-        "response": "Checkout Shiffman's YouTube channel: https:\/\/www.youtube.com\/user\/shiffman and his Programming with p5.js playlist: https:\/\/www.youtube.com\/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
-        "cost": {
-          "base": 0,
-          "mod": 0,
-          "reg": 0,
-          "sub": 0
-        },
-        "keywords": [],
-        "id": "11afa190-b7c3-11ea-84b1-edc0fd8b4b5c",
-        "hidden": false
-      }],
-      "messages": {
-        "displayCooldown": false,
-        "cooldownMessage": "{user.name} -> {command} is on cooldown for {cooldown} seconds.",
-        "displayCost": false,
-        "costMessage": "{user.name} -> You do not have enough currency to use {command}.",
-        "displayPermission": false,
-        "permissionMessage": "{user.name} -> You do not have permission to use {command}."
-      }
-    },
-    "enabled": true
-  },
-  "platforms": {
-    "twitch_account": "413856795"
-  },
-  "platforms2": {
-    "youtube_account": "UCLNgu_OupwoeESgtab33CCw",
-    "twitch_account": "413856795"
-  },
-  "thirdpartyplatforms": {
-    "patreon": true
-  }
+	"cloudbot": {
+		"settings": {
+			"commands": {
+				"add": {
+					"id": "Default-Commands-1",
+					"command": "!addcommand",
+					"description": "Allows a mod to add a command directly from chat.",
+					"success_response": "{user.name} -> Succesfully added {command}.",
+					"failed_response": "{user.name} -> Failed to add {command}.",
+					"response_type": "Chat",
+					"aliases": [],
+					"static_permission": {
+						"level": 32
+					},
+					"enabled": true,
+					"platforms": 7
+				},
+				"edit": {
+					"id": "Default-Commands-2",
+					"command": "!editcommand",
+					"description": "Allows a mod to edit a command directly from chat.",
+					"success_response": "{user.name} -> Successfully edited {command}.",
+					"failed_response": "{user.name} -> Failed to edit {command}.",
+					"response_type": "Chat",
+					"aliases": [],
+					"static_permission": {
+						"level": 32
+					},
+					"enabled": true,
+					"platforms": 7
+				},
+				"remove": {
+					"id": "Default-Commands-3",
+					"command": "!removecommand",
+					"description": "Allows a mod to remove a command directly from chat.",
+					"success_response": "{user.name} -> Successfully removed {command}.",
+					"failed_response": "{user.name} -> Failed to remove {command}",
+					"response_type": "Chat",
+					"aliases": [],
+					"static_permission": {
+						"level": 32
+					},
+					"enabled": true,
+					"platforms": 7
+				},
+				"enable": {
+					"id": "Default-Commands-4",
+					"command": "!enable",
+					"description": "Allows a mod to enable or disable a command.",
+					"enabled_response": "{user.name} -> Successfully enabled {command}.",
+					"disabled_response": "{user.name} -> Successfully disabled {command}.",
+					"response_type": "Chat",
+					"aliases": [],
+					"static_permission": {
+						"level": 32
+					},
+					"enabled": true,
+					"platforms": 7
+				}
+			},
+			"custom": [
+				{
+					"command": "!discord",
+					"response": "https://coding.garden/discord",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "503ea270-e948-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!gear",
+					"response": "https://coding.garden/gear",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "8a0e7070-e948-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!videos",
+					"response": "https://coding.garden/videos",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "92b8ea20-e948-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!keyboard",
+					"response": "This is the keyboard I use: Affiliate link (support me) - https://amzn.to/2nFa2wo Direct link (protect your privacy) - https://www.amazon.com/gp/product/B01M3UQX1Y/ Also checkout https://coding.garden/gear for more info on my setup.",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "1371b580-e952-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!breaktimer",
+					"response": "https://www.dejal.com/timeout/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "1c370a30-e952-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!break-timer",
+					"response": "https://www.dejal.com/timeout/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "1f760890-e952-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!break",
+					"response": "https://www.dejal.com/timeout/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "22c88ef0-e952-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!commands",
+					"response": "View the chat commands here: https://coding.garden/commands",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "8af93a10-e952-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!patreon",
+					"response": "https://patreon.com/CodingGardenWithCJ",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "97ccc400-e952-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!donate",
+					"response": "https://streamlabs.com/codinggardenwithcj/tip",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "a4ffd310-e952-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!faq",
+					"response": "https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "d622b660-e952-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!cj",
+					"response": "<img src=\"https://i.imgur.com/TFt8RMh.png\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "04967f40-e953-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!cj-think",
+					"response": "<img src=\"https://i.imgur.com/gtkM6u3.png\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "10654360-e953-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!cj-pixel",
+					"response": "<img src=\"https://i.imgur.com/Hl734P3.png\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "45898ab0-e953-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!tony-nose-bleed",
+					"response": "<img src=\"https://i.imgur.com/Pyx1Nqx.gif\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "dba81060-e954-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!phil",
+					"response": "<img src=\"https://i.imgur.com/UC7eiSh.png\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "7bfb6a30-e95f-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!alca",
+					"response": "<img src=\"https://i.imgur.com/tcLl4Dz.png\" />",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "687e7300-e9e9-11e9-97eb-6bb377252366"
+				},
+				{
+					"command": "!youtube",
+					"response": "https://youtube.com/codinggardenwithcj",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "21817d80-eb56-11e9-93f4-1b63ae48e3fe"
+				},
+				{
+					"command": "!twitch",
+					"response": "https://twitch.tv/codinggarden",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "17370200-fd76-11e9-bbb5-5bb994d6889c"
+				},
+				{
+					"command": "!github",
+					"response": "https://github.com/CodingGarden",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "28ed4f40-fd76-11e9-a1ac-955aa78d58c3"
+				},
+				{
+					"command": "!dotfiles",
+					"response": "https://github.com/w3cj/dotfiles",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "468e7420-fd76-11e9-bbb5-5bb994d6889c"
+				},
+				{
+					"command": "!uptime",
+					"response": "The stream has been live for {uptime}.",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 10
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": false,
+					"hidden": false,
+					"id": "5ef99c40-fddc-11e9-b4de-c1a1f2a490f2"
+				},
+				{
+					"command": "!gif",
+					"response": "ITS PRONOUNCED GIF!!!!",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "5eb6d6d0-fdf0-11e9-b6b5-972256f02468"
+				},
+				{
+					"command": "!qna",
+					"response": "Ask a question by typing !ask in the chat. You can vote and see other questions here: https://vox.coding.garden/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": false,
+					"hidden": false,
+					"id": "9b59ef70-07bc-11ea-8bc9-63a3eda97aad"
+				},
+				{
+					"command": "!project",
+					"response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https://tiny.cc/sql-db-model View the code here: https://git.io/home-inventory-app View the past episodes here: https://tiny.cc/home-inventory-app",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 30
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "189efef0-6e9f-11ea-95a1-219831a9f4fb"
+				},
+				{
+					"command": "!theme",
+					"response": "https://vscodethemes.com/e/nur.just-black",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "21f940a0-6e9f-11ea-95a1-219831a9f4fb"
+				},
+				{
+					"command": "!trello",
+					"response": "https://trello.com/b/2muD6KVr/stream-tasks",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "a456c6a0-7690-11ea-8bad-758bc185760b"
+				},
+				{
+					"command": "!workingon",
+					"response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https://tiny.cc/sql-db-model View the code here: https://git.io/home-inventory-app View the past episodes here: https://tiny.cc/home-inventory-app",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 30
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "37277040-7a08-11ea-9c26-9fc89b501e31"
+				},
+				{
+					"command": "!onitama",
+					"response": "Onitama is like a mini version of chess with valid moves rotating between players. Buy Onitama on Amazon: https://amzn.to/2V2X0a0 Onitama on BoardGameGeek: https://boardgamegeek.com/boardgame/160477/onitama Publishers website: https://www.arcanewonders.com/game/onitama/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "cf399e10-7cc6-11ea-81ed-8f97e308a5f5"
+				},
+				{
+					"command": "!twitchprime",
+					"response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https://twitch.amazon.com/tp",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "0517d400-8953-11ea-a775-a7a0ad0c8941"
+				},
+				{
+					"command": "!prime",
+					"response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https://twitch.amazon.com/tp",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "476aa120-8fe3-11ea-9d1c-c5b6e0b97286"
+				},
+				{
+					"command": "!tp",
+					"response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https://twitch.amazon.com/tp",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "4b3f01b0-8fe3-11ea-9abb-31d89a83b971"
+				},
+				{
+					"command": "!freesub",
+					"response": "If you have an Amazon Prime account, link it to twitch to get 1 free subscription for your favorite streamer! EZ https://twitch.amazon.com/tp",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "52a318b0-8fe3-11ea-9d1c-c5b6e0b97286"
+				},
+				{
+					"command": "!partner",
+					"response": "Waiting for a response from twitch!",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "172c6690-8fe5-11ea-9d1c-c5b6e0b97286"
+				},
+				{
+					"command": "!code",
+					"response": "Buy the CODE shirt here: https://teespring.com/en/just-code-it and here: https://teespring.com/code-tank-top",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "46dfef80-8ff2-11ea-9abb-31d89a83b971"
+				},
+				{
+					"command": "!tshirt",
+					"response": "Buy the CODE shirt here: https://teespring.com/en/just-code-it and here: https://teespring.com/code-tank-top",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "4e05c500-8ff2-11ea-9d1c-c5b6e0b97286"
+				},
+				{
+					"command": "!shirt",
+					"response": "Buy the CODE shirt here: https://teespring.com/en/just-code-it and here: https://teespring.com/code-tank-top",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "56b85500-8ff2-11ea-9abb-31d89a83b971"
+				},
+				{
+					"command": "!clash",
+					"response": "We are playing Coding Game Clash of Code! Sign up here: https://www.codingame.com/multiplayer/clashofcode",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "28160e20-938c-11ea-8957-c528aa2fd653"
+				},
+				{
+					"command": "!improv",
+					"response": "CODING IMPROV. Building an app completely inspired / influenced by suggestions. Use your channel points to suggest something that will influence the code I'm writing. Limited to 10 total redemptions per stream. All suggestions are only suggestions and are open to interpretation.",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "bfcdcce0-9a9d-11ea-9c04-4f27e9700d69"
+				},
+				{
+					"command": "!vox",
+					"response": "Ask me anything, suggest an idea, submit something for me to check out: https://vox.coding.garden/  with chat commands: \"!ask your message here\" | \"!idea your message here\" | \"!submit your message here\" | \"!upvote #number\" | \"!comment #number your comment here\"",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "4a6e7e90-9ec6-11ea-9c04-4f27e9700d69"
+				},
+				{
+					"command": "!idea",
+					"response": "Ask me anything, suggest an idea, submit something for me to check out: https://vox.coding.garden/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "4dafedf0-9ec6-11ea-978d-45a1f940d8f8"
+				},
+				{
+					"command": "!badges",
+					"response": "Type !team team-name in the chat to add a team badge to your chat messages! Valid team names are here: https://fontawesome.com/cheatsheet/free/brands | Type !country country-name or !flag country-code in the chat to add a country flag to your chat messages! Valid country names are here: https://restcountries.eu/rest/v2/all",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 30
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "af46ec10-9ec8-11ea-978d-45a1f940d8f8"
+				},
+				{
+					"command": "!codekatas",
+					"response": "Solving Code Wars Code Katas - https://www.codewars.com/dashboard | Filter through katas I've solved here: https://code-katas.now.sh/ | View past solutions here: https://github.com/CodingGarden/code-katas | View past episodes here: https://www.youtube.com/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "0a668e20-a081-11ea-9991-eb2e6e988262"
+				},
+				{
+					"command": "!codewars",
+					"response": "Solving Code Wars Code Katas - https://www.codewars.com/dashboard | Filter through katas I've solved here: https://code-katas.now.sh/ | View past solutions here: https://github.com/CodingGarden/code-katas | View past episodes here: https://www.youtube.com/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "120479d0-a081-11ea-9991-eb2e6e988262"
+				},
+				{
+					"command": "!quokka",
+					"response": "https://quokkajs.com/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "aadff210-a081-11ea-938f-f38313af7c3c"
+				},
+				{
+					"command": "!whatisthattool",
+					"response": "https://quokkajs.com/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "af3171e0-a081-11ea-9991-eb2e6e988262"
+				},
+				{
+					"command": "!sproutkit",
+					"response": "I'm consolidating the 3+ apps I use for stream overlays and to manage chat / questions into a single project with shared components / dependencies. Tech stack: Vue.js, TypeScript, SCSS | View the code here: https://github.com/CodingGarden/sproutkit | View the component demos here: https://sproutkit.now.sh/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 5
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "348b6890-a1dc-11ea-938f-f38313af7c3c"
+				},
+				{
+					"command": "!inventory",
+					"response": "I am building a Home Inventory Application. This project started with the goal of demonstrating database design. We have finished designing and creating the database and we are now creating a REST API to interact with the database. View the database model here: https://tiny.cc/sql-db-model View the code here: https://git.io/home-inventory-app View the past episodes here: https://tiny.cc/home-inventory-app",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 30
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "61b68c10-a361-11ea-9eb7-999a255c28a0"
+				},
+				{
+					"command": "!katas",
+					"response": "Solving Code Wars Code Katas - https://www.codewars.com/dashboard | Filter through katas I've solved here: https://code-katas.now.sh/ | View past solutions here: https://github.com/CodingGarden/code-katas | View past episodes here: https://www.youtube.com/playlist?list=PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "6d23c3e0-a601-11ea-afc3-fdf8e79aa4cf"
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!unbun",
+					"response": "https://clips.twitch.tv/WiseDeafGerbilCoolStoryBro",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "4c31c940-ab86-11ea-a01c-33618bc9ee4d",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!quack",
+					"response": "https://quokkajs.com/",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "591c0f80-ab86-11ea-a01c-33618bc9ee4d",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!whatarekatas",
+					"response": "Code Katas are small (but sometimes complicated) programming tasks ranging from 8kyu (very easy) to 1kyu (very hard), a lot having to do with maths or other sciences in addition to programming. They can be played on CodeWars. See !katas for links.",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "e80301e0-ab86-11ea-a01c-33618bc9ee4d",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!raid",
+					"response": "Raid messages: https://cdg.sh/raid",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "3623ea40-ab9d-11ea-a01c-33618bc9ee4d",
+					"hidden": false
+				},
+				{
+					"command": "!entropy",
+					"response": "Today we are working on adding multiple Servers / Channels to Entropy Chat (a discord clone). The app started as an idea in twitch chat and there have been quite a few community contributions since then. The code is here: https://github.com/CodingGarden/entropychat.app The landing page is here: https://entropychat.app/",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 0
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "6e7d3650-b31b-11ea-b713-e95ceae40b1d"
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!panzer",
+					"response": "https://www.twitch.tv/codinggarden/clip/FantasticFreezingCrabBudStar",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "b3685a20-b31f-11ea-a967-a5cb463b92e4",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!definedrop",
+					"response": "The drop game is a game based on random chance in which your avatar or an emoji is flying across the screen until it's at the bottom of the screen. If you land on the grass in the middle, your name will be displayed on the screen. The closer you are to the perfect middle, the bigger is your name displayed.",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "4880bda0-b325-11ea-a967-a5cb463b92e4",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!editor",
+					"response": "CJ's editor of choice is Visual Studio Code by Microsoft, or VS Code for short. It is cross-platform, open-source (Note: Not Microsoft binaries.) and available at https://code.visualstudio.com/. See his settings here: https://github.com/CodingGarden/vscode-settings",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "702232c0-b326-11ea-a967-a5cb463b92e4",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!vscode",
+					"response": "CJ's editor of choice is Visual Studio Code by Microsoft, or VS Code for short. It is cross-platform, open-source (Note: Not Microsoft binaries.) and available at https://code.visualstudio.com/. See his settings here: https://github.com/CodingGarden/vscode-settings",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "79d39520-b326-11ea-a967-a5cb463b92e4",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!conduct",
+					"response": "{2:end} @{touser.name} Be mindful of what you say. Keep the Coding Garden a respectful, considerate and inclusive community cdg.sh/code-of-conduct",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "3cd3d260-b372-11ea-a967-a5cb463b92e4",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!defineled",
+					"response": "You can make the LEDs on the screen change state using \"!led (8-digit binary number)\". 1 is on, 0 is off.",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "072b5020-b494-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!english",
+					"response": "To keep the chat easily moderatable, we enforce the English language in chat. There are some exceptions, for example if you have a good context.",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "ad7dbd40-b49f-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!definekatas",
+					"response": "Code Katas are small (but sometimes complicated) programming tasks ranging from 8kyu (very easy) to 1kyu (very hard), a lot having to do with maths or other sciences in addition to programming. They can be played on CodeWars. See !katas for links.",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "d3220540-b681-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				},
+				{
+					"command": "!codereview",
+					"response": "Use your seedlings (channel points) to redeem a Code Review! Limit 4 total redemptions per stream. Choose one thing for me to focus the review on. The code / project must be hosted somewhere public. I work with JavaScript / Node.js daily, so the best reviews will be for those kinds of projects. I'm open to reviewing other kinds of projects as well.",
+					"permission": {
+						"info": [],
+						"level": 1
+					},
+					"response_type": "Chat",
+					"cooldowns": {
+						"user": 0,
+						"global": 30
+					},
+					"cost": {
+						"base": 0,
+						"sub": 0,
+						"mod": 0,
+						"reg": 0
+					},
+					"aliases": [],
+					"keywords": [],
+					"platforms": 7,
+					"enabled": true,
+					"hidden": false,
+					"id": "0d4abb70-b7b0-11ea-99c8-cf3b04af2272"
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!crossplatformbreak",
+					"response": "https://hovancik.net/stretchly/",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "8796eb00-b7c0-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!shiffman",
+					"response": "Checkout Shiffman's YouTube channel: https://www.youtube.com/user/shiffman and his Programming with p5.js playlist: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "f4074630-b7c1-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				},
+				{
+					"permission": {
+						"level": 1,
+						"info": []
+					},
+					"cooldowns": {
+						"global": 0,
+						"user": 1
+					},
+					"aliases": [],
+					"platforms": 7,
+					"enabled": true,
+					"response_type": "Chat",
+					"command": "!codingtrain",
+					"response": "Checkout Shiffman's YouTube channel: https://www.youtube.com/user/shiffman and his Programming with p5.js playlist: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+					"cost": {
+						"base": 0,
+						"mod": 0,
+						"reg": 0,
+						"sub": 0
+					},
+					"keywords": [],
+					"id": "11afa190-b7c3-11ea-84b1-edc0fd8b4b5c",
+					"hidden": false
+				}
+			],
+			"messages": {
+				"displayCooldown": false,
+				"cooldownMessage": "{user.name} -> {command} is on cooldown for {cooldown} seconds.",
+				"displayCost": false,
+				"costMessage": "{user.name} -> You do not have enough currency to use {command}.",
+				"displayPermission": false,
+				"permissionMessage": "{user.name} -> You do not have permission to use {command}."
+			}
+		},
+		"enabled": true
+	},
+	"platforms": {
+		"twitch_account": "413856795"
+	},
+	"platforms2": {
+		"youtube_account": "UCLNgu_OupwoeESgtab33CCw",
+		"twitch_account": "413856795"
+	},
+	"thirdpartyplatforms": {
+		"patreon": true
+	}
 }

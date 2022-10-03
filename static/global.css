@@ -1,10 +1,12 @@
-@font-face {font-family: "GlacialIndifference-Bold";
-  src: url("/fonts/GlacialIndifference-Bold.eot");
-  src: url("/fonts/GlacialIndifference-Bold.woff2") format("woff2"),
-  url("/fonts/GlacialIndifference-Bold.woff") format("woff");
+@font-face {
+	font-family: 'GlacialIndifference-Bold';
+	src: url('/fonts/GlacialIndifference-Bold.eot');
+	src: url('/fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+		url('/fonts/GlacialIndifference-Bold.woff') format('woff');
 }
 
-html, body {
+html,
+body {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -16,12 +18,13 @@ body {
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
-	font-family: 'GlacialIndifference-Bold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: 'GlacialIndifference-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 	font-display: swap;
 }
 
 a {
-	color: rgb(0,100,200);
+	color: #6a9e3b;
 	text-decoration: none;
 }
 
@@ -30,14 +33,17 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: #6a9e3b;
 }
 
 label {
 	display: block;
 }
 
-input, button, select, textarea {
+input,
+button,
+select,
+textarea {
 	font-family: inherit;
 	font-size: inherit;
 	padding: 0.4em;
@@ -51,7 +57,7 @@ input:disabled {
 	color: #ccc;
 }
 
-input[type="range"] {
+input[type='range'] {
 	height: 0;
 }
 
@@ -69,6 +75,11 @@ button:focus {
 	border-color: #666;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'GlacialIndifference-Bold', sans-serif;
 }

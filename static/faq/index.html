@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Coding Garden Chat Commands</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../og-styles.min.css" />
+		<style>
+			* {
+				scroll-behavior: smooth;
+			}
+			body {
+				font-size: 2rem;
+				width: 100vw;
+				margin: 0;
+				padding: 0;
+			}
 
-<head>
-  <meta charset="utf-8">
-  <title>Coding Garden Chat Commands</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../og-styles.min.css">
-  <style>
-    * {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-size: 2rem;
-      width: 100vw;
-      margin: 0;
-      padding: 0;
-    }
+			#app {
+				width: 80%;
+				margin: 1rem auto;
+			}
 
-    #app {
-      width: 80%;
-      margin: 1rem auto;
-    }
+			h1 {
+				color: #d74e09;
+			}
 
-    h1 {
-      color: #D74E09;
-    }
+			h2,
+			h3 {
+				color: #f2bb05;
+			}
 
-    h2, h3 {
-      color: #F2BB05;
-    }
+			p,
+			ul {
+				font-family: 'Bitter', serif;
+			}
+		</style>
+	</head>
 
-    p, ul {
-      font-family: 'Bitter', serif;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="app">
-    <center>
-      <p>Loading...</p>
-      <p>If the page does not load, you can view the FAQs <a href="https://github.com/CodingGarden/faqs/">here</a></p>
-    </center>
-  </div>
-  <script src="/faq/faq.js"></script>
-</body>
+	<body>
+		<div id="app">
+			<center>
+				<p>Loading...</p>
+				<p>
+					If the page does not load, you can view the FAQs
+					<a href="https://github.com/CodingGarden/faqs/">here</a>
+				</p>
+			</center>
+		</div>
+		<script src="/faq/faq.js"></script>
+	</body>
 </html>

@@ -1,56 +1,57 @@
-@font-face {font-family: "GlacialIndifference-Bold";
-  src: url("/fonts/GlacialIndifference-Bold.eot");
-  src: url("/fonts/GlacialIndifference-Bold.woff2") format("woff2"),
-  url("/fonts/GlacialIndifference-Bold.woff") format("woff");
+@font-face {
+	font-family: 'GlacialIndifference-Bold';
+	src: url('/fonts/GlacialIndifference-Bold.eot');
+	src: url('/fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+		url('/fonts/GlacialIndifference-Bold.woff') format('woff');
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  background: #000;
-  font-family: "GlacialIndifference-Bold", sans-serif;
-  font-size: 2em;
-  color: #fff;
-  overflow-x: hidden;
-  font-display: swap;
+	height: 100vh;
+	width: 100vw;
+	background: #000;
+	font-family: 'GlacialIndifference-Bold', sans-serif;
+	font-size: 2em;
+	color: #fff;
+	overflow-x: hidden;
+	font-display: swap;
 }
 .garden {
-  width: 100%;
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
+	width: 100%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
 }
 #codes div,
 .plant {
-  display: inline-block;
+	display: inline-block;
 }
 .plants {
-  flex: 1.2;
+	flex: 1.2;
 }
 .tagline {
-  padding-left: 2em;
-  padding-right: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 .name {
-  flex: 0.8;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+	flex: 0.8;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 svg {
-  overflow: visible;
+	overflow: visible;
 }
 .plant {
-  position: absolute;
-  width: 20%;
+	position: absolute;
+	width: 20%;
 }
 a,
 a:visited {
-  color: #6a9e3b;
+	color: #6a9e3b;
 }
 .schedule {
-  padding: 0.5em;
-  width: 40%;
+	padding: 0.5em;
+	width: 40%;
 }
 #codes div {
-  font-size: 3vw;
+	font-size: 3vw;
 }
