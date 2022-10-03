@@ -1,8 +1,12 @@
 <script>
 	import '@fontsource/bitter/400.css';
-	let tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-	let cal = 'fdjrq4spg16jkpg6ahg41v3510%40group.calendar.google.com';
-	const src = `https://calendar.google.com/calendar/embed?mode=week&src=${cal}&ctz=${tz}`;
+	import { onMount } from 'svelte';
+	let src = '';
+	onMount(() => {
+		let tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+		let cal = 'fdjrq4spg16jkpg6ahg41v3510%40group.calendar.google.com';
+		src = `https://calendar.google.com/calendar/embed?mode=week&src=${cal}&ctz=${tz}`;
+	});
 </script>
 
 <svelte:head>
