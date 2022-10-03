@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+		<link rel="manifest" href="site.webmanifest" />
+		<title>Coding Garden Videos</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<main>
+			<h1 class="title">Coding Garden Videos</h1>
+			<div class="filter-links"></div>
+		</main>
+		<div class="form">
+			<label for="filter">Search</label>
+			<input type="text" id="filter" />
+		</div>
+		<div id="loading">
+			<h3>Loading...</h3>
+			<video
+				src="https://cdn.flixel.com/flixel/vg5u60m126u7qydd3e9i.phone.mp4"
+				loop
+				autoplay
+			></video>
+		</div>
+		<section class="row" id="videos"></section>
+		<script src="main.js"></script>
+	</body>
+</html>
