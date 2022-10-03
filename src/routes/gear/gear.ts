@@ -415,7 +415,7 @@ export const data = {
 		{
 			title: 'Coding Laptop',
 			description:
-				'This is the laptop I code on, and all the attached accessories. I do not use an external monitor. If you\'re wondering why I use a macbook, read the <a href="/faq/index.html#user-content-why-do-you-use-a-mac">FAQS here</a>.',
+				'This is the laptop I code on, and all the attached accessories. I do not use an external monitor. If you\'re wondering why I use a macbook, read the <a href="/faq#user-content-why-do-you-use-a-mac">FAQS here</a>.',
 			items: laptop
 		},
 		{
