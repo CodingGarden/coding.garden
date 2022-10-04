@@ -364,8 +364,6 @@
 	:global(.video-show) {
 		opacity: 1;
 		visibility: visible;
-		width: auto;
-		height: auto;
 	}
 
 	:global(.video-hide) {
