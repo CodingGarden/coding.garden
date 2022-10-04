@@ -69,7 +69,7 @@
 					<img alt="discord-logo" src="/images/discord.png">
 					Join the Discord
 				</a>
-				<a target="_blank" rel="noreferrer noopener" href="/faq">
+				<a href="/faq">
 					<img alt="faq-logo" src="/images/faq.png">
 					Read the Frequently Asked Questions
 				</a>
@@ -81,15 +81,15 @@
 					<img alt="mail-logo" src="/images/mail.png">
 					Subscribe to the mailing list for weekly updates and live stream notifications
 				</a>
-				<a target="_blank" rel="noreferrer noopener" href="/videos">
+				<a href="/videos">
 					<img alt="videos-logo" src="/images/tv.png">
 					Search across all videos
 				</a>
-				<a target="_blank" rel="noreferrer noopener" href="/support">
+				<a href="/support">
 					<img alt="support-logo" src="/images/support.png">
 					Show your support with donations and merch
 				</a>
-				<a target="_blank" rel="noreferrer noopener" href="/gear">
+				<a href="/gear">
 					<img alt="gear-logo" src="/images/gear.png">
 					View the gear used to stream
 				</a>
