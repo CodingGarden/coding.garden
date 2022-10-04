@@ -7,7 +7,6 @@
 	class Faq extends HTMLElement {
 		constructor() {
 			super();
-			console.log('creating instance...');
 			if (!this.shadowRoot) {
 				this.attachShadow({ mode: 'open' });
 			}
@@ -123,9 +122,10 @@
 		element.onMount();
 		parent.append(element);
 	});
-
 	if (!customElements.get('elementName')) {
-		customElements.define(elementName, Faq);
+		try {
+			customElements.define(elementName, Faq);
+		} catch (error) {}
 	}
 </script>
 
