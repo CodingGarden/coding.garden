@@ -22,10 +22,18 @@
 			const style = document.createElement('style');
 			style.textContent = this.styles;
 			this.shadowRoot?.append(style, this.element);
+			this.scrollHash = this.scrollHash.bind(this);
 			window.addEventListener(
 				'hashchange',
-				this.scrollHash.bind(this),
+				this.scrollHash,
 				false
+			);
+		}
+
+		disconnectedCallback() {
+			window.removeEventListener(
+				'hashchange',
+				this.scrollHash,
 			);
 		}
 
