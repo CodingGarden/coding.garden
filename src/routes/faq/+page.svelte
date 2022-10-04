@@ -117,13 +117,16 @@
 		}
 	}
 
+	const elementName = 'cg-faq';
 	onMount(() => {
-		const element = document.createElement('cg-faq');
+		const element = document.createElement(elementName);
 		element.onMount();
 		parent.append(element);
 	});
 
-	customElements.define('cg-faq', Faq);
+	if (!customElements.get('elementName')) {
+		customElements.define(elementName, Faq);
+	}
 </script>
 
 <div id="faq" bind:this={parent} />
