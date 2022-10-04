@@ -49,53 +49,53 @@
 			<h1>CODING GARDEN</h1>
 			<h2>Grow your coding skills one day at a time.</h2>
 			<div class="link-list">
-				<a href="https://twitch.tv/codinggarden">
+				<a target="_blank" rel="noreferrer noopener" href="https://twitch.tv/codinggarden">
 					<img alt="twitch-logo" src="/images/twitch.png">
 					Follow on Twitch
 				</a>
-				<a href="https://www.youtube.com/c/CodingGarden">
+				<a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/c/CodingGarden">
 					<img alt="youtube-logo" src="/images/youtube.png">
 					Subscribe on YouTube
 				</a>
-				<a href="https://twitter.com/coding_garden">
+				<a target="_blank" rel="noreferrer noopener" href="https://twitter.com/coding_garden">
 					<img alt="twitter-logo" src="/images/twitter.png">
 					Follow on Twitter
 				</a>
-				<a href="https://github.com/CodingGarden">
+				<a target="_blank" rel="noreferrer noopener" href="https://github.com/CodingGarden">
 					<img alt="github-logo" src="/images/github.png">
 					Follow on Github
 				</a>
-				<a href="/discord">
+				<a target="_blank" rel="noreferrer noopener" href="/discord">
 					<img alt="discord-logo" src="/images/discord.png">
 					Join the Discord
 				</a>
-				<a href="/faq">
+				<a target="_blank" rel="noreferrer noopener" href="/faq">
 					<img alt="faq-logo" src="/images/faq.png">
 					Read the Frequently Asked Questions
 				</a>
-				<a href="https://vox.coding.garden">
+				<a target="_blank" rel="noreferrer noopener" href="https://vox.coding.garden">
 					<img alt="vox-logo" src="/images/vox.png">
 					Ask questions to be answered LIVE on stream
 				</a>
-				<a href="https://list.coding.garden">
+				<a target="_blank" rel="noreferrer noopener" href="https://list.coding.garden">
 					<img alt="mail-logo" src="/images/mail.png">
 					Subscribe to the mailing list for weekly updates and live stream notifications
 				</a>
-				<a href="/videos">
+				<a target="_blank" rel="noreferrer noopener" href="/videos">
 					<img alt="videos-logo" src="/images/tv.png">
 					Search across all videos
 				</a>
-				<a href="/support">
+				<a target="_blank" rel="noreferrer noopener" href="/support">
 					<img alt="support-logo" src="/images/support.png">
 					Show your support with donations and merch
 				</a>
-				<a href="/gear">
+				<a target="_blank" rel="noreferrer noopener" href="/gear">
 					<img alt="gear-logo" src="/images/gear.png">
 					View the gear used to stream
 				</a>
 			</div>
 			<p class="tagline privacy-policy">
-				<a class="no-color-link" href="/privacy-policy"
+				<a class="no-color-link" target="_blank" rel="noreferrer noopener" href="/privacy-policy"
 					>View the Privacy Policy here.</a
 				>
 			</p>
