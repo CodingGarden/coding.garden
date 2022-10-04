@@ -31,7 +31,9 @@
 		}
 
 		scrollHash() {
-			const id = '#' + location.hash.substr(1);
+			const hash = location.hash.substr(1);
+			if (!hash) return;
+			const id = '#' + hash;
 			if (this.element) {
 				let targetElement = this.element.querySelector(id);
 				if (targetElement) {
