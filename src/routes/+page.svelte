@@ -69,6 +69,10 @@
 					<img alt="discord-logo" src="/images/discord.png">
 					Join the Discord
 				</a>
+				<a href="/schedule">
+					<img alt="schedule-logo" src="/images/schedule.png">
+					View upcoming live streams
+				</a>
 				<a href="/faq">
 					<img alt="faq-logo" src="/images/faq.png">
 					Read the Frequently Asked Questions
