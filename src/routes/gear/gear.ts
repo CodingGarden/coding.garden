@@ -10,11 +10,13 @@ const laptop = [
 			'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html'
 	},
 	{
-		title: 'Redragon K552 Mechanical Keyboard',
-		description: 'An inexpensive mechanical keyboard with RGB lights. I use this on stream.',
-		link: 'https://www.amazon.com/gp/product/B016MAK38U/',
-		affiliate_link: 'https://amzn.to/2paZuFD',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
+		title: 'RK ROYAL KLUDGE RK G68 65% Wireless Mechanical Keyboard, Bluetooth 5.1/2.4G/Wired',
+		description:
+			"Super portable 65% wireless mechanical keyboard. I use this on stream and bring this with me when I'm traveling with my laptop.",
+		link: 'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/',
+		affiliate_link:
+			'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/61Tcjx0rLwL._AC_SY450_.jpg'
 	},
 	{
 		title: 'Evoluent VM4L VerticalMouse',
@@ -28,8 +30,8 @@ const laptop = [
 		title: 'Laptop Stand',
 		description:
 			'Sturdy, easily adjustable stand for my macbook. I stand while streaming, so this brings the macbook screen up to my eye level for better ergonomics.',
-		link: 'https://www.amazon.com/gp/product/B086PR8W9H/',
-		affiliate_link: 'https://amzn.to/3lTUcaw',
+		link: 'https://www.amazon.com/gp/product/B09XDDS35C/',
+		affiliate_link: 'https://www.amazon.com/gp/product/B09XDDS35C/?tag=codinggardenw-20',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/61BlODDW1VL._AC_SX679_.jpg'
 	},
 	{
@@ -49,21 +51,27 @@ const laptop = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/716dLaDeo%2BL._AC_SX679_.jpg'
 	},
 	{
+		title: 'Redragon K552 Mechanical Keyboard',
+		description: 'An inexpensive mechanical keyboard with RGB lights.',
+		link: 'https://www.amazon.com/gp/product/B016MAK38U/',
+		affiliate_link: 'https://amzn.to/2paZuFD',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
+	},
+	{
+		title: 'ViewSonic VA2246MH-LED 22',
+		description:
+			'1080p external monitor. Nothing special, got it on sale.',
+		link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22',
+		affiliate_link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22&tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/616UM4OSCRL._AC_SX522_.jpg'
+	},
+	{
 		title: 'E-Element Z88 Mechanical Keyboard',
 		description:
 			'An inexpensive 60% mechanical keyboard with RGB lights. I use this in my home office.',
 		link: 'https://www.amazon.com/gp/product/B01M3UQX1Y/',
 		affiliate_link: 'https://amzn.to/2nFa2wo',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/61DO0nLq5eL._SX679_.jpg'
-	},
-	{
-		title: 'RK ROYAL KLUDGE RK G68 65% Wireless Mechanical Keyboard, Bluetooth 5.1/2.4G/Wired',
-		description:
-			"Super portable 65% wireless mechanical keyboard. I bring this with me when I'm traveling with my laptop.",
-		link: 'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/',
-		affiliate_link:
-			'https://www.amazon.com/RK-ROYAL-KLUDGE-Bluetooth-Mechanical/dp/B08JCQ9JMQ/?tag=codinggardenw-20',
-		image: 'https://m.media-amazon.com/images/I/61Tcjx0rLwL._AC_SY450_.jpg'
 	},
 	{
 		title: 'RK Wireless Keyboard Travel Case',
@@ -111,11 +119,19 @@ const lightingCameras = [
 	},
 	{
 		title: 'Mokose 4K USB Camera',
-		description: '4K USB Camera. Great picture quality and no need for an HDMI capture card!',
+		description: '4K USB Camera. Great picture quality and no need for an HDMI capture card! I use this as my main camera.',
 		link: 'https://www.amazon.com/MOKOSE-Desktop-Streaming-Calling-Computer/dp/B08FHBRKSK/',
 		affiliate_link:
 			'https://www.amazon.com/MOKOSE-Desktop-Streaming-Calling-Computer/dp/B08FHBRKSK/?tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/518bt9rv32L._AC_SX569_.jpg'
+	},
+	{
+		title: 'MOKOSE 4K HD USB Webcam Autofocus',
+		description: '4K USB Camera with autofocus. I use this as the behind the scenes / studio camera',
+		link: 'https://www.amazon.com/MOKOSE-Autofocus-Desktop-Streaming-Computer/dp/B08FWRTHDZ/',
+		affiliate_link:
+			'https://www.amazon.com/MOKOSE-Autofocus-Desktop-Streaming-Computer/dp/B08FWRTHDZ/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/31Es5uatXhL._AC_SY355_.jpg'
 	},
 	{
 		title: 'El Gato HD 60 Pro',
@@ -126,16 +142,16 @@ const lightingCameras = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/81A0xDEJuXL._SX679_.jpg'
 	},
 	{
-		title: 'Camera Tripod',
-		description: 'A very sturdy camera tripod. My USB camera is attached to this.',
-		link: 'https://www.amazon.com/gp/product/B01MZAD5CU/',
-		affiliate_link: 'https://amzn.to/323qIzb',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/71Je9N33vEL._AC_SX679_.jpg'
+		title: 'Photography Wall Ceiling Mount Boom Arm',
+		description: 'This is mounted to my ceiling and my camera is attached to this.',
+		link: 'https://www.amazon.com/gp/product/B09XMTZ2P3/',
+		affiliate_link: 'https://www.amazon.com/gp/product/B09XMTZ2P3/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/41PkuWmWMKL._AC_SY355_.jpg'
 	},
 	{
 		title: 'Webcam Clamp Mount',
 		description:
-			'I use this for the HD webcam on my desk. Easily adjusts to different viewing angles.',
+			'I use this for the behind the scenes / studio usb camera on my desk. Easily adjusts to different viewing angles.',
 		link: 'https://www.amazon.com/gp/product/B0897HS21T/',
 		affiliate_link: 'https://amzn.to/3h3yld8',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/61YPVmsO-iL._AC_SX679_.jpg'
@@ -169,22 +185,6 @@ const microphone = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/81ZdTG3fO9L._AC_SX679_.jpg'
 	},
 	{
-		title: 'KZ ZS10 Pro',
-		description:
-			'5 Driver in-Ear HiFi in ear monitoring headphones. Amazing sound for the price. I wear these to monitor stream alerts, and to monitor playback while making music. The cable is detachable / replaceable.',
-		link: 'https://www.amazon.com/gp/product/B07QKYTGH9/',
-		affiliate_link: 'https://amzn.to/31YYcOZ',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61-0DcVDsmL._AC_SX679_.jpg'
-	},
-	{
-		title: 'BEHRINGER POWERPLAY P2',
-		description:
-			'Personal in-ear monitor amplifier. This clips to my pocket and allows me to adjust the volume in my headphones without reaching over to the mixer. Not required, but a nice convenience.',
-		link: 'https://www.amazon.com/gp/product/B0784TMYPN/',
-		affiliate_link: 'https://amzn.to/322SCLz',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/51Xnq7IhxEL._AC_SX679_.jpg'
-	},
-	{
 		title: 'RODE PSA 1',
 		description:
 			'Swivel Mount Studio Microphone Boom Arm. There are less expensive options, but this one is heavy duty and the adjustments are butter smooth. Also, the microphone I have is expensive, so I wanted to protect my investment with a boom arm that will not easily break down / collapse.',
@@ -200,36 +200,12 @@ const microphone = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/91jiDNX0TBL._AC_SX679_.jpg'
 	},
 	{
-		title: 'Replacement Headphones Cable',
-		description:
-			'8 Core Silver Plated Copper Cable with 3.5mm Plug 2pins. This cable includes a bead that helps the headphones stay in place. The cable is also slightly longer and thicker than the cable that comes with the KZ ZS10 Pros.',
-		link: 'https://www.amazon.com/gp/product/B07PHFJ67T/',
-		affiliate_link: 'https://amzn.to/32TIqEc',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61eVnSpsGoL._AC_SX679_.jpg'
-	},
-	{
-		title: '25ft 1/4â€ TRS Cable',
-		description:
-			'This cable goes from the headphone output of the mixer, to the input of the personal in-ear monitor amplifier. This is not a standard instrument cable. Notice the 2 black bars on the plug, this means it carries STEREO sound! A plug with a single black bar will only carry audio to the left channel.',
-		link: 'https://www.amazon.com/gp/product/B07YDKFHKF/',
-		affiliate_link: 'https://amzn.to/3i1sDtD',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61DFOsSIcvL._AC_SX679_.jpg'
-	},
-	{
 		title: 'USB 2.0 A Male to B Male Cable',
 		description:
 			'Allows the USB audio mixer to be plugged in to the streaming computer. The YAMAHA MG10XU I purchased did not include one in the box.',
 		link: 'https://www.amazon.com/gp/product/B003BXPQF2/',
 		affiliate_link: 'https://amzn.to/3jS2Y6S',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/51k0F2i4pcL._AC_SX679_.jpg'
-	},
-	{
-		title: '15 FT 1/4â€ to 3.5 mm Audio Cable',
-		description:
-			"If I'm not using the personal in-ear monitor, this cable allows me to plug my headphones directly into the mixer.",
-		link: 'https://www.amazon.com/gp/product/B082FLPTF5/',
-		affiliate_link: 'https://amzn.to/2ZabuGw',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61Q29IdeDQL._AC_SX679_.jpg'
 	},
 	{
 		title: '3.5mm to 2RCA Male Cable',
@@ -287,13 +263,20 @@ const streamingComputer = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/61ZdsKAAMWL._AC_SX679_.jpg'
 	},
 	{
-		title: 'Rii K18 Plus Wireless Keyboard with Trackpad',
+		title: 'Logitech K400 Plus Wireless Touch TV Keyboard With Easy Media Control and Built-in Touchpad',
 		description:
 			"I use this to control the scenes in OBS. It's wireless, so I have it right next to my Coding Laptop. It's inexpensive and gets the job done. A streamdeck would be a nice upgrade, but this works well enough for me.",
-		link: 'https://www.amazon.com/gp/product/B077VYRMC1/',
-		affiliate_link: 'https://amzn.to/2R28Z4w',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/71lhHK1tooL._AC_SX679_.jpg'
-	}
+		link: 'https://www.amazon.com/gp/product/B014EUQOGK/',
+		affiliate_link: 'https://www.amazon.com/gp/product/B014EUQOGK/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/51yjnWJ5urL._AC_SX569_.jpg'
+	},
+	{
+		title: 'Camera Tripod',
+		description: 'A very sturdy camera tripod. I used to attach my camera to this.',
+		link: 'https://www.amazon.com/gp/product/B01MZAD5CU/',
+		affiliate_link: 'https://amzn.to/323qIzb',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/71Je9N33vEL._AC_SX679_.jpg'
+	},
 ];
 
 const past = [
@@ -407,15 +390,61 @@ const past = [
 		link: 'https://www.amazon.com/gp/product/B01DHS3120/',
 		affiliate_link: 'https://amzn.to/2oyCCfC',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/71bqmp3RvkL._SX679_.jpg'
+	},
+	{
+		title: 'Rii K18 Plus Wireless Keyboard with Trackpad',
+		description:
+			"I used to use this to control the scenes in OBS. The trackpad gave out and was very finnicky. I am using a logitech K400 now instead.",
+		link: 'https://www.amazon.com/gp/product/B077VYRMC1/',
+		affiliate_link: 'https://amzn.to/2R28Z4w',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/71lhHK1tooL._AC_SX679_.jpg'
 	}
 ];
+
+const music = [{
+	title: 'KZ ZS10 Pro',
+	description:
+		'5 Driver in-Ear HiFi in ear monitoring headphones. Amazing sound for the price. I wear these to monitor stream alerts, and to monitor playback while making music. The cable is detachable / replaceable.',
+	link: 'https://www.amazon.com/gp/product/B07QKYTGH9/',
+	affiliate_link: 'https://amzn.to/31YYcOZ',
+	image: 'https://images-na.ssl-images-amazon.com/images/I/61-0DcVDsmL._AC_SX679_.jpg'
+}, {
+	title: 'BEHRINGER POWERPLAY P2',
+	description:
+		'Personal in-ear monitor amplifier. This clips to my pocket and allows me to adjust the volume in my headphones without reaching over to the mixer. Not required, but a nice convenience.',
+	link: 'https://www.amazon.com/gp/product/B0784TMYPN/',
+	affiliate_link: 'https://amzn.to/322SCLz',
+	image: 'https://images-na.ssl-images-amazon.com/images/I/51Xnq7IhxEL._AC_SX679_.jpg'
+}, {
+	title: 'Replacement Headphones Cable',
+	description:
+		'8 Core Silver Plated Copper Cable with 3.5mm Plug 2pins. This cable includes a bead that helps the headphones stay in place. The cable is also slightly longer and thicker than the cable that comes with the KZ ZS10 Pros.',
+	link: 'https://www.amazon.com/gp/product/B07PHFJ67T/',
+	affiliate_link: 'https://amzn.to/32TIqEc',
+	image: 'https://images-na.ssl-images-amazon.com/images/I/61eVnSpsGoL._AC_SX679_.jpg'
+},
+{
+	title: '25ft 1/4â€ TRS Cable',
+	description:
+		'This cable goes from the headphone output of the mixer, to the input of the personal in-ear monitor amplifier. This is not a standard instrument cable. Notice the 2 black bars on the plug, this means it carries STEREO sound! A plug with a single black bar will only carry audio to the left channel.',
+	link: 'https://www.amazon.com/gp/product/B07YDKFHKF/',
+	affiliate_link: 'https://amzn.to/3i1sDtD',
+	image: 'https://images-na.ssl-images-amazon.com/images/I/61DFOsSIcvL._AC_SX679_.jpg'
+}, {
+	title: '15 FT 1/4â€ to 3.5 mm Audio Cable',
+	description:
+		"If I'm not using the personal in-ear monitor, this cable allows me to plug my headphones directly into the mixer.",
+	link: 'https://www.amazon.com/gp/product/B082FLPTF5/',
+	affiliate_link: 'https://amzn.to/2ZabuGw',
+	image: 'https://images-na.ssl-images-amazon.com/images/I/61Q29IdeDQL._AC_SX679_.jpg'
+},]
 
 export const data = {
 	gear: [
 		{
 			title: 'Coding Laptop',
 			description:
-				'This is the laptop I code on, and all the attached accessories. I do not use an external monitor. If you\'re wondering why I use a macbook, read the <a href="/faq#user-content-why-do-you-use-a-mac">FAQS here</a>.',
+				'This is the laptop I code on, and all the attached accessories. I use an external monitor and have the laptop across the room so my microphone does not pickup the fan noise. If you\'re wondering why I use a macbook, read the <a href="/faq#user-content-why-do-you-use-a-mac">FAQS here</a>.',
 			items: laptop
 		},
 		{
@@ -440,5 +469,8 @@ export const data = {
 				'This is the gear I used before it was replaced / upgraded to the gear listed above.',
 			items: past
 		}
+		// TODO: ADD MUSIC SECTION
+		// TODO: ADD LIFESTYLE SECTION
+		// TODO: ADD HOME SECTION
 	]
 };
