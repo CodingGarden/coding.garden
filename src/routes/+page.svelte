@@ -143,6 +143,10 @@
 	}
 
 	@media (max-width: 768px) {
+		h2 {
+			max-width: 250px;
+		}
+
 		.link-list a {
 			width: 50%;
 		}
