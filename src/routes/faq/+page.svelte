@@ -137,4 +137,10 @@
 	}
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="Frequently Asked Questions"
+	/>
+</svelte:head>
 <div id="faq" bind:this={parent} />

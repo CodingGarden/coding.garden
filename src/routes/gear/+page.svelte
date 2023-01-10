@@ -3,6 +3,13 @@
 	import { data } from './gear';
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="All the gear Coding Garden uses to stream."
+	/>
+</svelte:head>
+
 <h1 class="title">Coding Garden Gear</h1>
 <p class="info">
 	This is a list of all the gear I use to code and stream. You can support me by clicking the

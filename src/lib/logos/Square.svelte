@@ -37,7 +37,7 @@
 	<g id="Layer_11" class="st0">
 		<circle class="st1" cx="540" cy="540" r="540" />
 	</g>
-	<g id="Layer_7" transition:scale|local={{ delay: 2500, duration: 3000 }}>
+	<g id="Layer_7" transition:scale|local={{ delay: 1250, duration: 1500 }}>
 		<g>
 			<g>
 				<path
@@ -185,7 +185,7 @@
 			<path d="M777.3,728.8l-27-107.7v107.7h-13.9V608.4h24.4l27.2,107.7V608.4h13.9v120.4H777.3z" />
 		</g>
 	</g>
-	<g id="Layer_1" transition:fade|local={{ delay: 2500, duration: 3000 }}>
+	<g id="Layer_1" transition:fade|local={{ delay: 1250, duration: 1500 }}>
 		<g>
 			<path class="st4" d="M188,876.3V198.8h155.6v46.8h-97.8v584h97.8v46.8H188z" />
 			<path class="st4" d="M891.8,198v678.3H736.2v-46.8H834V244.7h-97.8V198H891.8z" />

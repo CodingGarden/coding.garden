@@ -31,6 +31,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/bitter": "^4.5.9"
+		"@fontsource/bitter": "^4.5.9",
+		"@fullcalendar/bootstrap5": "^5.11.3",
+		"@fullcalendar/core": "^5.11.3",
+		"@fullcalendar/icalendar": "^5.11.3",
+		"@fullcalendar/timegrid": "^5.11.3"
 	}
 }

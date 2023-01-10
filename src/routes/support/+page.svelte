@@ -1,5 +1,9 @@
 <svelte:head>
 	<title>Support Coding Garden</title>
+	<meta
+		name="description"
+		content="All the ways to support Coding Garden"
+	/>
 </svelte:head>
 
 <h2 class="name">Support Coding Garden</h2>

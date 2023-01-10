@@ -1,5 +1,9 @@
 <svelte:head>
 	<title>Privacy Policy</title>
+	<meta
+		name="description"
+		content="Privacy Policy for Coding Garden"
+	/>
 </svelte:head>
 
 <section>

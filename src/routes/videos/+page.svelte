@@ -149,6 +149,10 @@
 
 <svelte:head>
 	<title>Coding Garden Videos</title>
+	<meta
+		name="description"
+		content="Search across all Coding Garden videos"
+	/>
 	<style>
 		.card {
 			--bs-card-spacer-y: 1rem;

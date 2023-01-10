@@ -7,13 +7,18 @@
 	import links from '$lib/links';
 
 	let visible = false;
-	let linkVisible = false;
 
 	onMount(() => {
 		visible = true;
-		linkVisible = true;
 	});
 </script>
+
+<svelte:head>
+	<meta
+		name="description"
+		content="Hosted by CJ, Coding Garden is an open, interactive and engaging community where any coder, from beginner to expert, can learn and grow together. Whether it's a tutorial, Q&A session, algorithmic problem solving or full application design and build, there's always something new to learn!"
+	/>
+</svelte:head>
 
 <main class="main">
 	<div>
@@ -53,22 +58,19 @@
 	</div>
 	<div class="overlay">
 		<div class="info">
-			<h1>CODING GARDEN</h1>
-			<h2>Grow your coding skills one day at a time.</h2>
+			<h1 transition:fade >CODING GARDEN</h1>
+			<h2 transition:fade>Grow your coding skills one day at a time.</h2>
 			<div class="link-list">
 				{#each links as link}
-					{#if linkVisible}
-						<a
-							target={link.href.startsWith('https') ? '_blank' : '_self'}
-							rel="noopener noreferrer"
-							aria-atomic="true"
-							href={link.href}
-							transition:fly={{ y: 200, duration: 1000 }}
-						>
-							<img alt={link.img_alt} src={link.img_url} />
-							<span>{link.label}</span>
-						</a>
-					{/if}
+					<a
+						target={link.href.startsWith('https') ? '_blank' : '_self'}
+						rel="noopener noreferrer"
+						aria-atomic="true"
+						href={link.href}
+					>
+						<img alt={link.img_alt} src={link.img_url} />
+						<span>{link.label}</span>
+					</a>
 				{/each}
 			</div>
 			<p class="tagline privacy-policy">
@@ -109,14 +111,15 @@
 
 	h1 {
 		margin: 1rem auto 2rem auto;
-		animation: fadein 2000ms ease-in-out;
+		animation: fadein 700ms ease-in-out;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		max-width: 800px;
 		margin: 0 auto 3rem auto;
-		animation: fadein 3000ms ease-in-out;
+		animation: fadein 1500ms ease-in-out;
+		font-family: 'GlacialIndifference-Regular', sans-serif;
 	}
 
 	.link-list {
@@ -134,7 +137,9 @@
 		justify-content: center;
 		align-items: center;
 		width: 33.3%;
-		transition: color 600ms linear;
+		transition: color 300ms linear;
+		animation: flyin 1s ease-in-out;
+		font-family: 'GlacialIndifference-Regular', sans-serif;
 	}
 
 	@media (max-width: 768px) {
@@ -194,6 +199,18 @@
 		}
 
 		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes flyin {
+		from {
+			transform: translateY(150px);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateY(0);
 			opacity: 1;
 		}
 	}

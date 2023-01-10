@@ -17,6 +17,10 @@
 
 <svelte:head>
 	<title>Coding Garden Discord</title>
+	<meta
+		name="description"
+		content="Join the Coding Garden Discord"
+	/>
 </svelte:head>
 
 <div class="instructions">
