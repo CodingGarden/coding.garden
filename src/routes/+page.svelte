@@ -1,11 +1,18 @@
 <script>
+	import { onMount } from 'svelte';
+	import { fade, fly } from 'svelte/transition';
 	import Parens from '$lib/logos/Parens.svelte';
 	import Curly from '$lib/logos/Curly.svelte';
 	import Square from '$lib/logos/Square.svelte';
+	import links from '$lib/links';
 
 	let visible = false;
+	let linkVisible = false;
 
-	setTimeout(() => (visible = true));
+	onMount(() => {
+		visible = true;
+		linkVisible = true;
+	});
 </script>
 
 <main class="main">
@@ -49,54 +56,20 @@
 			<h1>CODING GARDEN</h1>
 			<h2>Grow your coding skills one day at a time.</h2>
 			<div class="link-list">
-				<a target="_blank" rel="noreferrer noopener" href="https://twitch.tv/codinggarden">
-					<img alt="twitch-logo" src="/images/twitch.png">
-					Follow on Twitch
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/c/CodingGarden">
-					<img alt="youtube-logo" src="/images/youtube.png">
-					Subscribe on YouTube
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="https://twitter.com/coding_garden">
-					<img alt="twitter-logo" src="/images/twitter.png">
-					Follow on Twitter
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="https://github.com/CodingGarden">
-					<img alt="github-logo" src="/images/github.png">
-					Follow on Github
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="/discord">
-					<img alt="discord-logo" src="/images/discord.png">
-					Join the Discord
-				</a>
-				<a href="/schedule">
-					<img alt="schedule-logo" src="/images/schedule.png">
-					View upcoming live streams
-				</a>
-				<a href="/faq">
-					<img alt="faq-logo" src="/images/faq.png">
-					Read the Frequently Asked Questions
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="https://vox.coding.garden">
-					<img alt="vox-logo" src="/images/vox.png">
-					Ask questions to be answered LIVE on stream
-				</a>
-				<a target="_blank" rel="noreferrer noopener" href="https://list.coding.garden">
-					<img alt="mail-logo" src="/images/mail.png">
-					Subscribe to the mailing list for weekly updates and live stream notifications
-				</a>
-				<a href="/videos">
-					<img alt="videos-logo" src="/images/tv.png">
-					Search across all videos
-				</a>
-				<a href="/support">
-					<img alt="support-logo" src="/images/support.png">
-					Show your support with donations and merch
-				</a>
-				<a href="/gear">
-					<img alt="gear-logo" src="/images/gear.png">
-					View the gear used to stream
-				</a>
+				{#each links as link}
+					{#if linkVisible}
+						<a
+							target={link.href.startsWith('https') ? '_blank' : '_self'}
+							rel="noopener noreferrer"
+							aria-atomic="true"
+							href={link.href}
+							transition:fly={{ y: 200, duration: 1000 }}
+						>
+							<img alt={link.img_alt} src={link.img_url} />
+							<span>{link.label}</span>
+						</a>
+					{/if}
+				{/each}
 			</div>
 			<p class="tagline privacy-policy">
 				<a class="no-color-link" target="_blank" rel="noreferrer noopener" href="/privacy-policy"
@@ -112,7 +85,8 @@
 		display: flex;
 		flex-direction: column;
 		height: 98vh;
-		overflow: auto;
+		overflow-y: auto;
+		overflow-x: hidden;
 		font-family: 'GlacialIndifference-Bold', sans-serif;
 		text-align: center;
 		font-size: 1.5rem;
@@ -135,20 +109,23 @@
 
 	h1 {
 		margin: 1rem auto 2rem auto;
+		animation: fadein 2000ms ease-in-out;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		max-width: 800px;
 		margin: 0 auto 3rem auto;
+		animation: fadein 3000ms ease-in-out;
 	}
 
 	.link-list {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, 400px);
-		place-content: center;
-		gap: 4rem;
-		margin: 1rem;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 1rem auto;
+		max-width: 900px;
 	}
 
 	.link-list a {
@@ -156,10 +133,32 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 33.3%;
+		transition: color 600ms linear;
+	}
+
+	@media (max-width: 768px) {
+		.link-list a {
+			width: 50%;
+		}
+
+		.link-list a img {
+			width: 80%;
+		}
+	}
+
+	.link-list a img {
+		z-index: -1;
+		max-width: 242px;
 		transition-duration: 500ms;
 	}
 
 	.link-list a:hover {
+		text-decoration: none;
+		color: #f2bb05;
+	}
+
+	.link-list a:hover img {
 		transform: scale(1.2);
 	}
 
@@ -187,5 +186,15 @@
 
 	.no-color-link:visited {
 		color: #ffffff;
+	}
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
 	}
 </style>
