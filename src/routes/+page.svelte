@@ -156,6 +156,16 @@
 		}
 	}
 
+	@media (max-width: 250px) {
+		.link-list a {
+			width: 100%;
+		}
+
+		.link-list a img {
+			width: 80%;
+		}
+	}
+
 	.link-list a img {
 		z-index: -1;
 		max-width: 242px;
