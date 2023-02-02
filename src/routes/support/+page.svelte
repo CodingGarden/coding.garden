@@ -29,9 +29,8 @@
 <p class="tagline">
 	<a target="_blank" rel="noreferrer noopener" href="https://www.redbubble.com/people/w3cj/collections/907384-coding-garden-with-cj"
 		>Click here</a
-	> to buy Coding Garden Stickers and Merchandise on Red Bubble
+	> to buy Coding Garden Stickers on Red Bubble
 </p>
 <p class="tagline">
-	<a target="_blank" rel="noreferrer noopener" href="https://merch.coding.garden">Click here</a> to buy Coding Garden Stickers and
-	Merchandise on Tee Spring
+	<a target="_blank" rel="noreferrer noopener" href="https://merch.coding.garden">Click here</a> to buy Coding Garden T Shirts and Mugs on Tee Spring
 </p>
