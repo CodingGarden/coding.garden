@@ -35,6 +35,8 @@
 		"@fullcalendar/bootstrap5": "^5.11.3",
 		"@fullcalendar/core": "^5.11.3",
 		"@fullcalendar/icalendar": "^5.11.3",
-		"@fullcalendar/timegrid": "^5.11.3"
+		"@fullcalendar/list": "^5.11.4",
+		"@fullcalendar/timegrid": "^5.11.3",
+		"ical": "^0.8.0"
 	}
 }
