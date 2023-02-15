@@ -157,7 +157,7 @@
 
 	.info p {
 		color: white;
-		font-size: 1rem;
+		font-size: min(2.5rem, 4vw);
 		text-align: center;
 		font-family: 'Bitter', serif;
 	}
