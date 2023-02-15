@@ -45,31 +45,33 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>Github</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://github.com/sponsors/CodingGarden">GitHub</a></td>
 			<td>100%</td>
 		</tr>
 		<tr>
-			<td>Streamlabs Donation</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://streamlabs.com/codinggarden/tip">Streamlabs Donation</a></td>
 			<td>98%</td>
 		</tr>
 		<tr>
-			<td>Patreon Pledge</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGardenWithCJ">Patreon Pledge</a></td>
 			<td>93%</td>
 		</tr>
 		<tr>
-			<td>YouTube Membership</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/codinggarden/join">YouTube Membership</a></td>
 			<td>70%</td>
 		</tr>
 		<tr>
-			<td>Twitch Subscription</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://twitch.tv/codinggarden">Twitch Subscription</a></td>
 			<td>50%</td>
 		</tr>
 		<tr>
-			<td>Teespring</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://merch.coding.garden">Teespring</a></td>
 			<td>$5 per item</td>
 		</tr>
 		<tr>
-			<td>Red Bubble</td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://www.redbubble.com/people/w3cj/collections/907384-coding-garden-with-cj"
+		>Red Bubble</a
+	></td>
 			<td>$0.20 per sticker</td>
 		</tr>
 	</tbody>
