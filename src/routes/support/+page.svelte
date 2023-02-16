@@ -15,7 +15,7 @@
 	<a target="_blank" rel="noreferrer noopener" href="https://streamlabs.com/codinggarden/tip">Click here</a> to make a one time donation.
 </p>
 <p class="tagline">
-	<a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGardenWithCJ">Click here</a> to become a Patreon patron with a $1 or
+	<a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGarden">Click here</a> to become a Patreon patron with a $1 or
 	more monthly donation.
 </p>
 <p class="tagline">
@@ -40,12 +40,12 @@
 	<thead>
 		<tr>
 			<th>Source</th>
-			<th>Revenue</th>
+			<th>Profit</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td><a target="_blank" rel="noreferrer noopener" href="https://github.com/sponsors/CodingGarden">GitHub</a></td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://github.com/sponsors/CodingGarden">GitHub Sponsor</a></td>
 			<td>100%</td>
 		</tr>
 		<tr>
@@ -53,7 +53,7 @@
 			<td>98%</td>
 		</tr>
 		<tr>
-			<td><a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGardenWithCJ">Patreon Pledge</a></td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGarden">Patreon Pledge</a></td>
 			<td>93%</td>
 		</tr>
 		<tr>
@@ -65,12 +65,12 @@
 			<td>50%</td>
 		</tr>
 		<tr>
-			<td><a target="_blank" rel="noreferrer noopener" href="https://merch.coding.garden">Teespring</a></td>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://merch.coding.garden">Teespring Merch</a></td>
 			<td>$5 per item</td>
 		</tr>
 		<tr>
 			<td><a target="_blank" rel="noreferrer noopener" href="https://www.redbubble.com/people/w3cj/collections/907384-coding-garden-with-cj"
-		>Red Bubble</a
+		>Red Bubble Stickers</a
 	></td>
 			<td>$0.20 per sticker</td>
 		</tr>
