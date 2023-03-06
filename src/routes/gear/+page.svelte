@@ -141,7 +141,7 @@
 
 	.item .inner .image {
 		max-height: 250px;
-		max-width: 450px;
+		max-width: 375px;
 	}
 
 	.description {

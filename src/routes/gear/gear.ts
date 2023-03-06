@@ -26,22 +26,6 @@ const laptop = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/41VSk5L5sFL._AC_.jpg'
 	},
 	{
-		title: 'Laptop Stand',
-		description:
-			'Sturdy, easily adjustable stand for my macbook. I stand while streaming, so this brings the macbook screen up to my eye level for better ergonomics.',
-		link: 'https://www.amazon.com/gp/product/B09XDDS35C/',
-		affiliate_link: 'https://www.amazon.com/gp/product/B09XDDS35C/?tag=codinggardenw-20',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61BlODDW1VL._AC_SX679_.jpg'
-	},
-	{
-		title: 'Macbook Pro Cover',
-		description:
-			'A matte hard case cover for my macbook pro. I switch out the stickers on my laptop every now and then, and this makes it easy. Also, keeps the macbook nice and shiny underneath.',
-		link: 'https://www.amazon.com/gp/product/B016ZEG1NO',
-		affiliate_link: 'https://amzn.to/357Te4t',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/51hjCTZ2YxL._AC_SX679_.jpg'
-	},
-	{
 		title: 'Extended Gaming Mouse Pad',
 		description:
 			'XXL mouse pad. My mouse, laptop + stand, keyboard and audio mixer all fit on top of this. Provides a nice work surface.',
@@ -50,27 +34,20 @@ const laptop = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/716dLaDeo%2BL._AC_SX679_.jpg'
 	},
 	{
-		title: 'Redragon K552 Mechanical Keyboard',
-		description: 'An inexpensive mechanical keyboard with RGB lights.',
-		link: 'https://www.amazon.com/gp/product/B016MAK38U/',
-		affiliate_link: 'https://amzn.to/2paZuFD',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
+		title: 'Laptop Stand',
+		description:
+			'Sturdy, easily adjustable stand for my macbook. I stand while streaming, so this brings the macbook screen up to my eye level for better ergonomics.',
+		link: 'https://www.amazon.com/gp/product/B09XDDS35C/',
+		affiliate_link: 'https://www.amazon.com/gp/product/B09XDDS35C/?tag=codinggardenw-20',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/61BlODDW1VL._AC_SX679_.jpg'
 	},
 	{
-		title: 'ViewSonic VA2246MH-LED 22',
+		title: '14" Macbook Pro Cover',
 		description:
-			'1080p external monitor. Nothing special, got it on sale.',
-		link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22',
-		affiliate_link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22&tag=codinggardenw-20',
-		image: 'https://m.media-amazon.com/images/I/616UM4OSCRL._AC_SX522_.jpg'
-	},
-	{
-		title: 'E-Element Z88 Mechanical Keyboard',
-		description:
-			'An inexpensive 60% mechanical keyboard with RGB lights. I use this in my home office.',
-		link: 'https://www.amazon.com/gp/product/B01M3UQX1Y/',
-		affiliate_link: 'https://amzn.to/2nFa2wo',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/61DO0nLq5eL._SX679_.jpg'
+			'A matte hard case cover for my 14" macbook pro.',
+		link: 'https://www.amazon.com/MOSISO-Compatible-MacBook-Keyboard-Protector/dp/B09KS11BKK/',
+		affiliate_link: 'https://www.amazon.com/MOSISO-Compatible-MacBook-Keyboard-Protector/dp/B09KS11BKK/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/61oY5msIj4L._AC_SL1500_.jpg'
 	},
 	{
 		title: 'RK Wireless Keyboard Travel Case',
@@ -78,14 +55,6 @@ const laptop = [
 		link: 'https://www.amazon.com/gp/product/B08PBDWL5X/',
 		affiliate_link: 'https://www.amazon.com/gp/product/B08PBDWL5X/?tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/71o89lHw0HS._AC_SY450_.jpg'
-	},
-	{
-		title: '4 port USB 3.0 Hub',
-		description: 'My macbook only has 2 usb ports, so this gives me more!',
-		link: 'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/',
-		affiliate_link:
-			'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/?tag=codinggardenw-20',
-		image: 'https://m.media-amazon.com/images/I/51MiG9+u4lL._AC_SX425_.jpg'
 	}
 ];
 
@@ -126,23 +95,31 @@ const lightingCameras = [
 	},
 	{
 		title: 'MOKOSE 4K HD USB Webcam Autofocus',
-		description: '4K USB Camera with autofocus. I use this as the behind the scenes / studio camera',
+		description: '4K USB Camera with autofocus. I use this as the overhead camera for when I\'m coloring or opening pokemon cards',
 		link: 'https://www.amazon.com/MOKOSE-Autofocus-Desktop-Streaming-Computer/dp/B08FWRTHDZ/',
 		affiliate_link:
 			'https://www.amazon.com/MOKOSE-Autofocus-Desktop-Streaming-Computer/dp/B08FWRTHDZ/?tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/31Es5uatXhL._AC_SY355_.jpg'
 	},
 	{
+		title: 'OBSBOT Meet 4K Webcam, AI-Powered Auto Framing',
+		description: '4K USB Camera with autofocus and Auto Framing. I have 2 of these cameras. 1 is used for getting started / behind the scenes and the other is used as the face camera for when I\'m on the side of my desk with the overhead camera. I also used this camera during the Thanksgiving cooking stream (it can automatically detect humans and zoom in).',
+		link: 'https://www.amazon.com/dp/B0B14K3FV8',
+		affiliate_link:
+			'https://www.amazon.com/dp/B0B14K3FV8?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/61HJLcgGxiL._AC_SL1500_.jpg'
+	},
+	{
 		title: 'El Gato HD 60 Pro',
 		description:
-			'1080p PCIe HDMI Capture card with 60fps. I use 1 of these to capture the HDMI signal of my HD camcorder. This is similar to the USB version, but plugs directly into the PC motherboard.',
+			'1080p PCIe HDMI Capture card with 60fps. I use 1 of these to capture the HDMI signal of my laptop. This is similar to the USB version, but plugs directly into the PC motherboard.',
 		link: 'https://www.amazon.com/gp/product/B014MQIVPS/',
 		affiliate_link: 'https://amzn.to/2nJ8oKf',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/81A0xDEJuXL._SX679_.jpg'
 	},
 	{
 		title: 'Photography Wall Ceiling Mount Boom Arm',
-		description: 'This is mounted to my ceiling and my camera is attached to this.',
+		description: 'This is mounted to my ceiling and my main camera is attached to this.',
 		link: 'https://www.amazon.com/gp/product/B09XMTZ2P3/',
 		affiliate_link: 'https://www.amazon.com/gp/product/B09XMTZ2P3/?tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/41PkuWmWMKL._AC_SY355_.jpg'
@@ -169,7 +146,7 @@ const microphone = [
 	{
 		title: 'Shure MV7',
 		description:
-			"Less expensive alternative to the industry standard SM7B. This model has a USB audio interface built in, so you won't need a separate one. ALSO, this microphone is a dynamic microphone NOT a condenser microphone like all of my past microphones. Dynamic microphones do not require phantom power and pick up less background noise (I no longer use a noise cancelling filter in OBS).",
+			"Less expensive alternative to the industry standard SM7B. This model has a USB audio interface built in, so you won't need a separate one. ALSO, this microphone is a dynamic microphone NOT a condenser microphone like all of my past microphones. Dynamic microphones do not require phantom power and pick up less background noise. I have this plugged in via USB so I can control the microphone audio separately from the music audio.",
 		link: 'https://www.amazon.com/Shure-Microphone-Podcasting-Voice-Isolating-Technology/dp/B08G7RG9ML/',
 		affiliate_link:
 			'https://www.amazon.com/Shure-Microphone-Podcasting-Voice-Isolating-Technology/dp/B08G7RG9ML/?tag=codinggardenw-20',
@@ -178,7 +155,7 @@ const microphone = [
 	{
 		title: 'YAMAHA MG10XU',
 		description:
-			'10-Input Stereo Mixer With Effects. Includes an on board USB audio interface. The Shure MV7 as well as other audio sources are plugged into this mixer, and the mixer is then plugged into my streaming computer via USB.',
+			'10-Input Stereo Mixer With Effects. Includes an on board USB audio interface. I use this to control the volume of the music running on my desktop computer and the volume of the sound coming out of my laptop when I play videos on stream.',
 		link: 'https://www.amazon.com/dp/B00IBIVL42/',
 		affiliate_link: 'https://amzn.to/31Z2HsY',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/81ZdTG3fO9L._AC_SX679_.jpg'
@@ -190,13 +167,6 @@ const microphone = [
 		link: 'https://www.amazon.com/gp/product/B001D7UYBO/',
 		affiliate_link: 'https://amzn.to/357nxZ9',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/31za0oUe0iL._AC_.jpg'
-	},
-	{
-		title: 'XLR Patch Cables',
-		description: 'I use one of these cables to plug the Condenser microphone into the audio mixer.',
-		link: 'https://www.amazon.com/gp/product/B000RY68PA/',
-		affiliate_link: 'https://amzn.to/3jNEg7R',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/91jiDNX0TBL._AC_SX679_.jpg'
 	},
 	{
 		title: 'USB 2.0 A Male to B Male Cable',
@@ -220,9 +190,10 @@ const streamingComputer = [
 	{
 		title: 'I use this: ABS Fort Gaming Desktop PC',
 		description:
-			'I purchased this pre-built gaming PC on Black Friday in November 2018 for $800. This is a decent mid-tier gaming PC. It is 2 years old, but the specs are more than enough to handle the stream load.',
+			'I purchased this pre-built gaming PC on Black Friday in November 2018 for $800. I was using it as-is for the past 5 years and the specs are more than enough to handle the stream load. In January 2023 I upgraded the graphics card to an NVIDIA RTX 3060 so I can use NVIDIA Broadcast.',
 		specs: [
-			'NVIDIA GeForce GTX 1060 3 GB',
+			'(Original) NVIDIA GeForce GTX 1060 3 GB',
+			'(Upgraded to) NVIDIA GeForce RTX 3060 12 GB',
 			'AMD Ryzen 5 2nd Gen 2400G (3.60 GHz) Quad Core',
 			'16 GB DDR4 2666 MHz',
 			'1 TB HDD',
@@ -235,7 +206,7 @@ const streamingComputer = [
 		title: 'I suggest this: Find a decent pre-built gaming PC',
 		description: 'Look for these specs:',
 		specs: [
-			'Modern Graphics card... AMD Ryzen or Nvidia',
+			'NVIDIA RTX Graphics card if you want to use NVIDIA Broadcast (AI noise removal, background removal, eye contact etc.) OR any modern graphics card...',
 			'At least quad core CPU',
 			'At least 16GB of RAM',
 			'At least 1 TB HD',
@@ -254,6 +225,14 @@ const streamingComputer = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/91TrJ3M5EML._AC_SX679_.jpg'
 	},
 	{
+		title: 'ViewSonic VA2246MH-LED 22',
+		description:
+			'1080p external monitor. This sits on the opposite side of my desk so I can monitor the live stream when using the overhead cam.',
+		link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22',
+		affiliate_link: 'https://www.amazon.com/s?k=ViewSonic+VA2246MH-LED+22&tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/616UM4OSCRL._AC_SX522_.jpg'
+	},
+	{
 		title: 'ErGear Monitor Mount',
 		description:
 			'Full Motion Gas Spring Arm LCD/LED Computer Monitor Riser, Height/Angle Adjustable. Very sturdy and very adjustable monitor stand. This hangs off of my desk and extends out right below the main camera, so I can monitor things while still looking into the camera lense.',
@@ -269,13 +248,6 @@ const streamingComputer = [
 		affiliate_link: 'https://www.amazon.com/gp/product/B014EUQOGK/?tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/51yjnWJ5urL._AC_SX569_.jpg'
 	},
-	{
-		title: 'Camera Tripod',
-		description: 'A very sturdy camera tripod. I used to attach my camera to this.',
-		link: 'https://www.amazon.com/gp/product/B01MZAD5CU/',
-		affiliate_link: 'https://amzn.to/323qIzb',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/71Je9N33vEL._AC_SX679_.jpg'
-	},
 ];
 
 const past = [
@@ -288,6 +260,37 @@ const past = [
 		image: 'https://images-na.ssl-images-amazon.com/images/I/81uEPNTD1yL._AC_SX679_.jpg',
 		info_link:
 			'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html'
+	},
+	{
+		title: '2015 Macbook Pro Cover',
+		description:
+			'A matte hard case cover for my macbook pro. I switch out the stickers on my laptop every now and then, and this makes it easy. Also, keeps the macbook nice and shiny underneath.',
+		link: 'https://www.amazon.com/gp/product/B016ZEG1NO',
+		affiliate_link: 'https://amzn.to/357Te4t',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/51hjCTZ2YxL._AC_SX679_.jpg'
+	},
+	{
+		title: 'Redragon K552 Mechanical Keyboard',
+		description: 'An inexpensive mechanical keyboard with RGB lights.',
+		link: 'https://www.amazon.com/gp/product/B016MAK38U/',
+		affiliate_link: 'https://amzn.to/2paZuFD',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/61jrG8EOTAL._SX679_.jpg'
+	},
+	{
+		title: 'E-Element Z88 Mechanical Keyboard',
+		description:
+			'An inexpensive 60% mechanical keyboard with RGB lights.',
+		link: 'https://www.amazon.com/gp/product/B01M3UQX1Y/',
+		affiliate_link: 'https://amzn.to/2nFa2wo',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/61DO0nLq5eL._SX679_.jpg'
+	},
+	{
+		title: '4 port USB 3.0 Hub',
+		description: 'My macbook only has 2 usb ports, so this gives me more!',
+		link: 'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/',
+		affiliate_link:
+			'https://www.amazon.com/Extender-Splitter-MacBook-Chromebook-Pixelbook/dp/B09MLRPTT2/?tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/51MiG9+u4lL._AC_SX425_.jpg'
 	},
 	{
 		title: 'HDMI Mini Adapter',
@@ -318,6 +321,13 @@ const past = [
 		link: 'https://www.amazon.com/gp/product/B01N7OAH3I/',
 		affiliate_link: 'https://amzn.to/2C9DQrC',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/71xAUUvYvCL._SX679_.jpg'
+	},
+	{
+		title: 'Camera Tripod',
+		description: 'A very sturdy camera tripod. I used to attach my camera to this.',
+		link: 'https://www.amazon.com/gp/product/B01MZAD5CU/',
+		affiliate_link: 'https://amzn.to/323qIzb',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/71Je9N33vEL._AC_SX679_.jpg'
 	},
 	{
 		title: 'El Gato HD 60 S',
@@ -351,6 +361,13 @@ const past = [
 		link: 'https://www.amazon.com/gp/product/B073Z9NF3Y/',
 		affiliate_link: 'https://amzn.to/2CbSFtx',
 		image: 'https://images-na.ssl-images-amazon.com/images/I/71-Pe0e5POL._SX679_.jpg'
+	},
+	{
+		title: 'XLR Patch Cables',
+		description: 'I use one of these cables to plug the Condenser microphone into the audio mixer.',
+		link: 'https://www.amazon.com/gp/product/B000RY68PA/',
+		affiliate_link: 'https://amzn.to/3jNEg7R',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/91jiDNX0TBL._AC_SX679_.jpg'
 	},
 	{
 		title: 'BM-800 - Condenser Microphone Bundle',
@@ -453,7 +470,7 @@ export const data = {
 		{
 			title: 'Coding Laptop',
 			description:
-				'This is the laptop I code on, and all the attached accessories. I use an external monitor and have the laptop across the room so my microphone does not pickup the fan noise. If you\'re wondering why I use a macbook, read the <a href="/faq#user-content-why-do-you-use-a-mac">FAQS here</a>.',
+				'This is the laptop I code on, and all the accessories. I use this laptop without an external monitor. If you\'re wondering why I use a macbook, read the <a href="/faq#user-content-why-do-you-use-a-mac">FAQS here</a>.',
 			items: laptop
 		},
 		{
