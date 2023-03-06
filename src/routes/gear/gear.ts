@@ -1,8 +1,7 @@
 const laptop = [
 	{
-		title: '2021 Macbook Pro',
-		description:
-			'This is the last model macbook that has a dedicated HDMI port and full size USB ports. Overall, it is a very reliable laptop, and the third one I have owned. I purchased my current one lightly used on Ebay.',
+		title: '2021 14" Macbook Pro M1',
+		description: 'I finally upgraded to a newer macbook. So far the machine is great. Awesome battery life, portable and great for coding and video editing.',
 		link: 'https://www.amazon.com/s?k=MKGR3LL%2FA',
 		affiliate_link: 'https://www.amazon.com/s?k=MKGR3LL%2FA&tag=codinggardenw-20',
 		image: 'https://m.media-amazon.com/images/I/61cCf94xIEL._AC_UY218_.jpg',
