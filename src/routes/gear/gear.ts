@@ -1,13 +1,12 @@
 const laptop = [
 	{
-		title: '2015 Macbook Pro',
-		description:
-			'This is the last model macbook that has a dedicated HDMI port and full size USB ports. Overall, it is a very reliable laptop, and the second one I have owned. I purchased my current one lightly used on Ebay.',
-		link: 'https://www.amazon.com/s?k=MJLT2LL%2FA',
-		affiliate_link: 'https://www.amazon.com/s?k=MJLT2LL%2FA&tag=codinggardenw-20',
-		image: 'https://images-na.ssl-images-amazon.com/images/I/81uEPNTD1yL._AC_SX679_.jpg',
+		title: '2021 14" Macbook Pro M1',
+		description: 'I finally upgraded to a newer macbook. So far the machine is great. Awesome battery life, portable and great for coding and video editing.',
+		link: 'https://www.amazon.com/s?k=MKGR3LL%2FA',
+		affiliate_link: 'https://www.amazon.com/s?k=MKGR3LL%2FA&tag=codinggardenw-20',
+		image: 'https://m.media-amazon.com/images/I/61cCf94xIEL._AC_UY218_.jpg',
 		info_link:
-			'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html'
+			'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-pro-8-core-cpu-14-core-gpu-14-2021-specs.html'
 	},
 	{
 		title: 'RK ROYAL KLUDGE RK G68 65% Wireless Mechanical Keyboard, Bluetooth 5.1/2.4G/Wired',
@@ -280,6 +279,16 @@ const streamingComputer = [
 ];
 
 const past = [
+	{
+		title: '2015 Macbook Pro',
+		description:
+			'This is the last model macbook that has a dedicated HDMI port and full size USB ports. Overall, it is a very reliable laptop, and the second one I have owned. I purchased my current one lightly used on Ebay.',
+		link: 'https://www.amazon.com/s?k=MJLT2LL%2FA',
+		affiliate_link: 'https://www.amazon.com/s?k=MJLT2LL%2FA&tag=codinggardenw-20',
+		image: 'https://images-na.ssl-images-amazon.com/images/I/81uEPNTD1yL._AC_SX679_.jpg',
+		info_link:
+			'https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html'
+	},
 	{
 		title: 'HDMI Mini Adapter',
 		description: 'I use this to plug a regular HDMI cable into the HD camcorder.',
