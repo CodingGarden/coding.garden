@@ -170,9 +170,12 @@
 	}
 
 	.link-list a img {
-		z-index: -1;
 		max-width: 242px;
 		transition-duration: 500ms;
+	}
+
+	.link-list a span {
+		z-index: 1;
 	}
 
 	.link-list a:hover {
