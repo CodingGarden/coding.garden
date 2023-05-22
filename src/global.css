@@ -137,3 +137,7 @@ svg {
 		animation: none !important;
 	}
 }
+
+.green-text {
+	color: #6a9e3b;
+}

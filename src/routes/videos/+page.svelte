@@ -149,10 +149,7 @@
 
 <svelte:head>
 	<title>Coding Garden Videos</title>
-	<meta
-		name="description"
-		content="Search across all Coding Garden videos"
-	/>
+	<meta name="description" content="Search across all Coding Garden videos" />
 	<style>
 		.card {
 			--bs-card-spacer-y: 1rem;
@@ -354,6 +351,14 @@
 	<label for="filter">Search</label>
 	<input type="text" id="filter" />
 </div>
+<p class="api-info">
+	This page uses the YouTube API to display video information. By using this page, you are agreeing to be bound by the YouTube Terms of Service.
+	<br />
+	You can view the full terms here: <a class="green-text" href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">https://www.youtube.com/t/terms</a>
+	<br />
+	By using this page, you hereby consent to our <a class="green-text" href="/privacy-policy">Privacy Policy</a> and agree to its Terms and
+	Conditions.
+</p>
 <div id="loading">
 	<h3>Loading...</h3>
 	<video src="https://cdn.flixel.com/flixel/vg5u60m126u7qydd3e9i.phone.mp4" loop autoplay />
@@ -361,6 +366,11 @@
 <section class="row" id="videos" />
 
 <style>
+	:global(.api-info) {
+		font-size: 0.75rem;
+		text-align: center;
+	}
+
 	:global(.video) {
 		transition: height 0.5s, width 0.5s, visibility 0s, opacity 0.5s linear;
 	}
@@ -391,6 +401,10 @@
 
 	:global(a) {
 		color: white;
+	}
+
+	:global(.green-text) {
+		color: #6a9e3b;
 	}
 
 	:global(a:hover) {

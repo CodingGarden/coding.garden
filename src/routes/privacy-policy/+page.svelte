@@ -1,9 +1,6 @@
 <svelte:head>
 	<title>Privacy Policy</title>
-	<meta
-		name="description"
-		content="Privacy Policy for Coding Garden"
-	/>
+	<meta name="description" content="Privacy Policy for Coding Garden" />
 </svelte:head>
 
 <section>
@@ -83,6 +80,34 @@
 		website.
 	</p>
 
+	<h2 id="youtube-api">YouTube API</h2>
+
+	<p>
+		The <a href="/videos">https://coding.garden/videos</a> page uses the YouTube API to display
+		video information. By using the <a href="/videos">https://coding.garden/videos</a> page, you are
+		agreeing to be bound by the YouTube Terms of Service.
+		<br />
+		<br />
+		You can view the full terms of YouTube 
+		<a
+			class="green-text"
+			href="https://www.youtube.com/t/terms"
+			target="_blank"
+			rel="noopener noreferrer">here.</a
+		>
+		<br />
+		<br />
+		View the Google Privacy Policy <a class="green-text" href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer"
+			>here.</a
+		>
+		<br />
+		<br />
+		The <a href="/videos">https://coding.garden/videos</a> page does not access or store any data relating to users.
+		<br />
+		<br />
+		The <a href="/videos">https://coding.garden/videos</a> page does not use, process, or share user information.
+	</p>
+
 	<h2>Consent</h2>
 
 	<p>
@@ -90,7 +115,7 @@
 		Conditions.
 	</p>
 
-	<i>This policy is effective as of 28 December 2019.</i>
+	<i>This policy is effective as of 22 May 2023.</i>
 </section>
 
 <style>
