@@ -102,10 +102,13 @@
 		>
 		<br />
 		<br />
-		The <a href="/videos">https://coding.garden/videos</a> page does not access or store any data relating to users.
+		The <a class="green-text" href="/videos">https://coding.garden/videos</a> page does not access or store any data relating to users.
 		<br />
 		<br />
-		The <a href="/videos">https://coding.garden/videos</a> page does not use, process, or share user information.
+		The <a class="green-text" href="/videos">https://coding.garden/videos</a> page does not use, process, or share user information.
+		<br />
+		<br />
+		You can email <a class="green-text" href="mailto:cj@coding.garden">cj@coding.garden</a> with questions or complaints about our privacy practices.
 	</p>
 
 	<h2>Consent</h2>
