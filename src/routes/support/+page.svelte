@@ -8,6 +8,9 @@
 
 <h2 class="name">Support Coding Garden</h2>
 <p class="tagline">
+	<a target="_blank" rel="noreferrer noopener" href="https://www.reactroots.com">Click here</a> to purchase my React + TypeScript course for $35.
+</p>
+<p class="tagline">
 	<a target="_blank" rel="noreferrer noopener" href="https://github.com/sponsors/CodingGarden">Click here</a> to become a Github sponsor with a $5 or
 	more monthly donation.
 </p>
@@ -55,6 +58,10 @@
 		<tr>
 			<td><a target="_blank" rel="noreferrer noopener" href="https://www.patreon.com/CodingGarden">Patreon Pledge</a></td>
 			<td>93%</td>
+		</tr>
+		<tr>
+			<td><a target="_blank" rel="noreferrer noopener" href="https://www.reactroots.com">React Roots Course</a></td>
+			<td>90%</td>
 		</tr>
 		<tr>
 			<td><a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/codinggarden/join">YouTube Membership</a></td>
