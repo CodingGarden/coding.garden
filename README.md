@@ -5,7 +5,7 @@ Landing page built with [SvelteKit](https://kit.svelte.dev/).
 ## Setup
 
 ```bash
-npm install
+npm install-clean
 ```
 
 ## Development
