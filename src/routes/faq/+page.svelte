@@ -50,7 +50,9 @@
 		}
 
 		onMount() {
-			if (localStorage.faqHTML) {
+			let lastUpdated = Number(localStorage.lastUpdated);
+			let shouldUpdate = Number.isNaN(lastUpdated) || lastUpdated < new Date('2024-02-16').getTime();
+			if (!shouldUpdate && localStorage.faqHTML) {
 				this.setHTML(localStorage.faqHTML);
 			} else {
 				const url = 'https://api.github.com/repos/CodingGarden/faqs/contents/README.md?ref=master';
@@ -61,6 +63,7 @@
 				})
 					.then((result) => result.text())
 					.then((html) => {
+						localStorage.lastUpdated = new Date().getTime();
 						localStorage.faqHTML = html;
 						this.setHTML(html);
 					});
