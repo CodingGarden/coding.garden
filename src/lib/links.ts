@@ -37,7 +37,7 @@ export default [
     label: 'Show your Support'
   },
   {
-    href: 'https://twitter.com/coding_garden',
+    href: 'https://x.com/CodingGarden',
     img_alt: 'twitter-logo',
     img_url: '/images/twitter.png',
     label: 'Follow on Twitter'
